@@ -1,0 +1,2 @@
+# notes
+ruby notes
