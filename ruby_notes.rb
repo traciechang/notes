@@ -52,3 +52,26 @@
 # add -A
 # commit -m ""
 # push
+
+# 8/31/17
+# attr_accessor: 
+# - allows u to use attributes inside class w/out @
+# - allows other classes to modify it
+# - this, along w/ other such as reader, allows u to access attributes outside of the class
+
+# method_missing
+# - write method so that whatever method you call, it will do same thing
+# - Metaprogramming
+# 	-> difficult to find and debug because method is not explicitly defined
+
+# pry
+# -if you want to test things in terminal one by one:
+# ->gem 'pry'
+# ->bundle install
+# ->require 'pry'
+# ->binding.pry
+# ->pry
+# ->load beer.rb
+
+# if you want to test only one line:
+# - ^: line # you want to run
