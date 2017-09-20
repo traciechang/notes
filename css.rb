@@ -13,3 +13,23 @@
 # - New style rule: shows you style sheets going into the page right now
 # - Elements tab: where you'll be doing most of your editing
 # - Sources: get your code here
+
+# Syntax 9/19/17
+
+# Selectors:
+# BAD
+# 1. !important - no way to write maintainable code
+# 2. inline CSS
+# 3. id - you can only have one ID on an HTML page, generally don't use for CSS
+
+# GOOD
+# 4. class '.favorite'
+# 5. element '<p>'
+
+# - your browser has built in style sheet
+# - classes start with a period. Ex:
+# .favorite {
+#     color: red;
+# }
+
+# - specificity matters - if all is equal, last declared rule wins
