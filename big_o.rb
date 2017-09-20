@@ -134,5 +134,54 @@
 # 		- ex: permutation
 
 # 6. Set Definition
-
+# - O(g) = { f| f does not dominate g }
+#   equals set of functions where f does not dominate g
+#   if g = n^2, some functions where f does not dominate g would be n, 2n, 2n + 1000, n^2, 3n^2 + 4000
+  	
+#   if an algorithm is O(n^2), it is also O(n!) because if something doesn't dominate n^2, it does not dominate n!
+#   - an algorithm O(2n^2) = O(n^2), but you would never say that you have O(2n^2)
+#   - always want to use the asymptotic version of the function
+  
+# - say a function has different parts and one part is O(n) and another is O(n^3)
+# 	The overall runtime is O(n^3) because overall is its bottleneck
+  
 # 7. Space Complexity
+# How much space is our algorithm taking up relative to size of input? How does it scale when input size grows?
+# - Ex: write a function that take two arrays, where array1 contains 1 element that array2 doesn't have. 
+# 	Otherwise, they are both same, but may not be in same order. Find that element.
+# 	- Naive approach is to create a hash and count number of each unique element, then subtract those in
+# 	second array, then see which element still has value of 1.
+# 	- The hash is taking up memory, and will grow as number of unique elements in your arrays grow
+# 	- Instead of O(n), can we make it O(1), where regardless of # of elemements, we take up same amount of space?
+	
+# - use XOR	(symbol is ^)
+# array1 = [2, 7, 3, 2, 8]
+# array2 = [2, 3, 8, 3]
+
+# - say we are using a hypothetical 4 bit computer
+
+# 0010   (bit representation of 2)
+# 0111 ^ (bit representation of 7)
+# _______
+# 0101
+# 0011^  (3)	
+# _______
+# 0110	
+# 0010   (2)
+# ________
+# 0100
+# 1000 (8)
+# _______
+# 1100  (now XOR array2 into this)
+# 0010  (2)
+# _______
+# 1110
+# 0010  (2)
+# _______
+# 1100
+# 1000  (8)
+# _______
+# 0100 
+# 0011  (3)
+# _______
+# 0111 => 7
