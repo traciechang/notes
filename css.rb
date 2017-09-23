@@ -14,6 +14,7 @@
 # - Elements tab: where you'll be doing most of your editing
 # - Sources: get your code here
 
+# *****************************************************************
 # Syntax 9/19/17
 
 # Selectors:
@@ -33,3 +34,17 @@
 # }
 
 # - specificity matters - if all is equal, last declared rule wins
+
+# *****************************************************************
+# CSS Box Model 9/22/17
+
+# - can set width and height of an element
+# - Ex:
+# .box {
+#     padding: 20px 20px 20px 20px;
+# }
+# - order is: top right bottom left (clockwise)
+
+# inline elements
+# - cannot specify width and height
+# - can specify padding, border, margin
