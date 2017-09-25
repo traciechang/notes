@@ -59,3 +59,30 @@
 # - write method so that whatever method you call, it will do same thing
 # - Metaprogramming
 # 	-> difficult to find and debug because method is not explicitly defined
+
+**delete
+Ian:
+
+- polytree node*
+- html header. the ../.. part
+- TTT AI supercomp.rb -> why mine dun work
+- mancala w2d2 (next_turn method)
+-w2d3 - shoul i be using this? guard spec
+- w2d4 Execution Time/algorithms (don't understand how I could have come up w/ last solution)
+
+If time:
+- Ghost AI Player (incomplete)
+- Maze Solver (not started)
+- Memory Bonus (not started)
+- revise ruby_notes
+- w1d4 Screwdoku (debugging exercise)
+
+Need to practice:
+git branching
+git working on project w/ diff people (see minesweeper instructions)
+
+Pair:
+- 8 queens
+- D4 minesweeper
+- D5 Knights TTravails after get explanation for polytree node
+- Chess
