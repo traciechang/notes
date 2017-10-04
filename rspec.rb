@@ -17,3 +17,15 @@
 
 # protected / private methods
 # - do not call these in your specs. these methods should just be called within your public methods. these will not passed in your specs if called directly
+
+    # ***********************************
+
+    # From I
+
+    # - Guard:
+    #     - run your specs automatically
+    #     - w/ every save, it automatically runs specs for you
+
+    # - Rspec
+    #     - unit testing -> when you write specs for just Pawn, think of all scenarios concerning that move
+    #     Ex: on 1st move, you should be able to move 1 or 2 spots. On all other moves, you should be able to move only 1 spot
