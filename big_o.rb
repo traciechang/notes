@@ -185,3 +185,75 @@
 # 0011  (3)
 # _______
 # 0111 => 7
+
+# ************************************************************
+
+# By I
+
+# # my_min
+
+
+# # Given a list of integers find the smallest number in the list.
+
+# # Example:
+
+#     # list = [ 0, 3, 5, 4, -5, 10, 1, 90 ]
+#     # my_min(list)  # =>  -5
+
+# # O(1) => constant
+# # O(n) => linear
+# # O(n^m) => quadratic
+# # O(log n) => logarithmic
+# # O(n!) => factorial
+
+# # Phase I
+
+# # First, write a function that compares each element to every other element of the list.  Return the element if all other elements in the array are larger.
+# # What is the time complexity for this function?
+
+# # [2, 5, 3]
+# def my_min(nums)
+#     nums.each do |num|
+#       return num if nums.all? { |num_2| num_2 > num }
+#     end
+#   end
+  
+#   # quadratic, O(n^m)
+#   # O(n^2)
+  
+#   # Phase II
+  
+#   # Now rewrite the function to iterate through the list just once while keeping
+#   # track of the minimum.  What is the time complexity?
+  
+#   # [2, 5, 3]
+#   def my_min(nums)
+#     min = nil
+#     nums.each do |num|
+#       min = num if min.nil? || num < min
+#     end
+#     min
+#   end
+  
+#   # linear, O(n)
+  
+#   # if i have 3 numbers in my array, my_min needs to perform 3 operations, or check 3 numbers, in order to determine the min
+#   # therefore, this solution scales linearly, O(n) time complexity
+  
+#   # [4, 6, 3]
+#   # [1, 0, -1]
+#   def greater_than_2(nums)
+#     final = []
+#     nums.each do |num|
+#       final << num if num > 2
+#     end
+#     final
+#   end
+  
+#   # what's the time complexity?
+#   # linear, O(n)
+#   # what's the space complexity?
+#   # worst case
+#   # more space
+#   # O(n)
+  
