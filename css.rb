@@ -48,3 +48,19 @@
 # inline elements
 # - cannot specify width and height
 # - can specify padding, border, margin
+
+# *****************************************************************
+# CSS - Display 10/4/17
+
+# NONE - you may want to use this when you're creating it but not ready to display on page
+# - does not show anything
+
+# BLOCK
+# - block elements don't tolerate neighbors, will always show up
+# - takes minimum amount of height, uses full width
+# - you usually want to use blocks for layouts
+
+# INLINE
+# - takes minimum amount of height AND width
+# - it will go next to each other
+# - should only be used for say, highlihgting
