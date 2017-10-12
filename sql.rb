@@ -62,3 +62,39 @@
 # -> plays_db.execute("SELECT * FROM plays") <- this will get your query
 # -> plays_db.execute("INSERT INTO plays (title, year, playwright_id)
 # VALUES ('The Glass', 1944, 3)")
+
+# *************************************************************************
+# Object Relational Mapping (ORM)
+
+# - When we queried for data, we got back an array of arrays [[1, "Play Title", 1999, 1],...]
+# - But how do we know what all these data mean? Not useful for Ruby developers
+# - What if we can create instances of play with all this data? -> ORM
+
+# class Play
+
+# 	::all (this will get all plays in db)
+# 	#initialize (create new instances of plays)
+# 	#create (this will put your instances into db)
+# 	#update (lets you update created instances)
+
+# end
+
+# - With this, you don't have to be writing SQL in your RUby code. We can interact w/ db in the language our code is written in
+
+# Ex for update:
+
+# def update
+# 	raise "#{self} not in databse" unless @id
+# 	PlayDBConnection.instance.execute(<<-SQL, @title, @year, @playwright_id, @id)
+# 		UPDATE
+# 			plays
+# 		SET
+# 			title = ?, year = ?, play_wright_id = ?
+# 		WHERE
+# 			id = ?
+# 	SQL
+# end
+
+# ************************************************************************
+# - SQL injection attacks
+
