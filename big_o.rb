@@ -256,4 +256,6 @@
 #   # worst case
 #   # more space
 #   # O(n)
+
+# - sophisticated algorithms not a huge concern when u start working; I's biggest concern is writing efficient SQL queries.
   
