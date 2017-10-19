@@ -95,3 +95,49 @@
 # -> Cat.find_by(name: "sarah") to find by something other than id
 
 # -> Cat.create(name: "Jeff", color: "orange") | this create an instance AND save to db
+
+# ******************************************************************
+# Basic Associations (belongs to, has many)
+
+# - macros:
+# class Cat < ActiveRecord::Base
+# 	belongs_to :house, #the name of the method you want as the instance method
+# 		primary_key: :id, #the primary key of the other table (house)
+# 		foreign_key: :house_id, #the name of column of this table that points to primary key of other table
+# 		class_name: 'House'
+	
+# end
+
+# -> jeff = Cat.last
+# -> jeff.house #should give you Jeff's house now
+
+# class House < ActiveRecord::Base
+# 	def cats
+# 		Cat.where(house_id: self.id)
+# 	end
+# end
+
+# - the equivalent to the above is:
+# class House < ActiveRecord::Base
+# 	has_many :cats,
+# 		primary_key: id,
+# 		foreign_key: :house_id,
+# 		class_name: 'Cat'
+# end
+
+# -> beach = House.last
+# -> beach.cats #return all cats living in this hosue
+
+# -> beach.cats = Cats.all #this actually updated all cats to this beach house
+# this means that the method cats that we defined is also a setter method, that it also did these things:
+# def cats
+# 	#...
+# end
+
+# def cats=(arg)
+# 	#...
+# end
+
+# r = House.first
+# r.cats # should be empty now that we placed all cats into beach house
+# r.cats << Cat.first #shovels first cat into r.cats. It changed the house of the first cat to r
