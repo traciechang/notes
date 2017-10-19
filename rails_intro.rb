@@ -141,3 +141,54 @@
 # r = House.first
 # r.cats # should be empty now that we placed all cats into beach house
 # r.cats << Cat.first #shovels first cat into r.cats. It changed the house of the first cat to r
+
+# ******************************************************************
+# Basic Associations (has many, through)
+
+# - what if we wanted to find all of the toys in a house?
+
+# class House < ActiveRecord::Base
+# 	has_many :cats,
+# 		primary_key: id,
+# 		foreign_key: :house_id,
+# 		class_name: 'Cat'
+
+# 	has_many :toys, #name of your method	
+# 		through: :cats, #name of association IN THIS CLASS
+# 		source: :toys #name of assocation in cat class
+
+# 	# instead of doing it this way, we're going to use has many, thru
+# 	def toys
+# 		toys = []
+# 		self.cats.each do |cat|
+# 			toys += cat.toys
+# 		end
+# 		toys
+# 	end
+
+# -> h = House.first
+# -> h.toys #should get all toys in this house
+
+
+# class Toy < ActiveRecord::Base
+# 	belongs_to :cat,
+# 		primary_key: :id,
+# 		foreign_key: :cat_id,
+# 		class_name: 'Cat'
+
+# 	has_one :house, # use has_one because a toy can only be in one house. it only returns one thing
+# 		through: :cat,
+# 		source: :house
+	
+# 	#equivalent of above
+# 	def house
+# 		<<-SQL
+# 		select *
+# 		from cats
+# 		join houses
+# 		on cats.house_id = houses.id
+# 		where id = #{self.cat_id}
+# 		SQL
+# 		.first
+# 	end
+# end
