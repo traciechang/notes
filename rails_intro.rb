@@ -192,3 +192,47 @@
 # 		.first
 # 	end
 # end
+
+******************************************************************
+Validations
+
+- if we tried to save a cat with no id, we get a db error. We want to prevent db errors to be thrown, so we add a protection layer by validating in our models
+- .valid? checks to see if our object is ready to be inserted into db, that is, if all our validations pass
+
+- Cat.all.pluck(:name) #give you an array of all cat names
+- however, when it returns only true / false, how do you know what you did wrong?
+- c.errors #will give u error
+
+Customer Validations
+
+class Cat < ActiveRecord::Base
+	validate :no_green_cats
+end
+
+def no_green_cats
+	if self.color == "green"
+		self.errors[:color] << "can't be green"	#the symbol on this line is the column that you're checking
+	end
+end
+
+-> c = Cat.new(name: 'mike', color: 'green')
+-> c.valid? #=>false
+-> c.error.full_messages #=> COlor can't be green
+-> c.name = nil #=> you should now get two errors in an array: name can't be blank and color cant be green
+
+# ******************************************************************
+# Indices
+
+# - speed up lookup in our active record tables
+# - you index columns that you frequently use
+# - what is an index? a tree
+# - we don't make index for all columns because it takes up space
+# - very common to add index while ur creating table
+# - if you wanted to do a uniqueness validation on the db level, you'd be using indexes
+
+# By I:
+# - Adding index to certain columns makes it treat it like a hash/tree rather than array (it will usually look thru as if an array)
+
+# Misc: launchy pusheen.com <- didn’t work
+# -> bundle exec launchy pusheen.com
+# - make it a habit of using bundle exec when you have a gemfile
