@@ -259,3 +259,9 @@
 
 # - sophisticated algorithms not a huge concern when u start working; I's biggest concern is writing efficient SQL queries.
   
+# ************************************************************
+
+# By I
+
+# - Nested loops are bad if you're going thru the same data set twice
+#     -> most likely you can do it without doing that
