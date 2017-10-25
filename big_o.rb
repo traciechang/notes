@@ -265,3 +265,7 @@
 
 # - Nested loops are bad if you're going thru the same data set twice
 #     -> most likely you can do it without doing that
+
+# - O(1) space complexity
+# - what does this mean? think of simple variables that store 1 thing
+# - arrays automatically become O(n) because it depends on how many items are in the array
