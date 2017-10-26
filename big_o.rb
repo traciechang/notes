@@ -269,3 +269,6 @@
 # - O(1) space complexity
 # - what does this mean? think of simple variables that store 1 thing
 # - arrays automatically become O(n) because it depends on how many items are in the array
+
+Time Complexity
+- one of main things interviewers ask -> you are given problem, solve it, and they ask you what is the time complexity of it
