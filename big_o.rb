@@ -272,3 +272,4 @@
 
 Time Complexity
 - one of main things interviewers ask -> you are given problem, solve it, and they ask you what is the time complexity of it
+- O(n) -> time goes up for each additional element
