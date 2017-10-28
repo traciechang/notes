@@ -231,17 +231,17 @@
 # - if you wanted to do a uniqueness validation on the db level, you'd be using indexes
 
 # ******************************************************************
-API - Application Program Interface 10/25/17
+# API - Application Program Interface 10/25/17
 
-- Ex. Ruby object API: its public methods
+# - Ex. Ruby object API: its public methods
 
-- Rails application ex:
- -> make GET request to /cats
+# - Rails application ex:
+#  -> make GET request to /cats
 
-- what happens when you go to google.com:
- > sends to server
- > server sends back things such as: HTML, CSS, JS, images
- > you get back all these assets and the browser will render them
+# - what happens when you go to google.com:
+#  > sends to server
+#  > server sends back things such as: HTML, CSS, JS, images
+#  > you get back all these assets and the browser will render them
 
 # - disctinction between 
 #  1. Website - includes assets to be rendered by browser
