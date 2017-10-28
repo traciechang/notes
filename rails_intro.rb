@@ -230,6 +230,27 @@
 # - very common to add index while ur creating table
 # - if you wanted to do a uniqueness validation on the db level, you'd be using indexes
 
+# ******************************************************************
+API - Application Program Interface 10/25/17
+
+- Ex. Ruby object API: its public methods
+
+- Rails application ex:
+ -> make GET request to /cats
+
+- what happens when you go to google.com:
+ > sends to server
+ > server sends back things such as: HTML, CSS, JS, images
+ > you get back all these assets and the browser will render them
+
+- disctinction between 
+ 1. Website - includes assets to be rendered by browser
+ 2. Webservice(API) - just data
+	ex: server to server
+	ex: maybe your phone requests data (mobile app) and the phone itself knows how to render that data
+	ex: client side rendering of data (SPA - single page application)
+		> example of this is gmail. you're doing a bunch of stuff on one page (send, go to inbox, etc.) but you stay on one page
+
 # By I:
 # - Adding index to certain columns makes it treat it like a hash/tree rather than array (it will usually look thru as if an array)
 
