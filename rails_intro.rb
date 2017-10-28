@@ -193,32 +193,32 @@
 # 	end
 # end
 
-******************************************************************
-Validations
+# ******************************************************************
+# Validations
 
-- if we tried to save a cat with no id, we get a db error. We want to prevent db errors to be thrown, so we add a protection layer by validating in our models
-- .valid? checks to see if our object is ready to be inserted into db, that is, if all our validations pass
+# - if we tried to save a cat with no id, we get a db error. We want to prevent db errors to be thrown, so we add a protection layer by validating in our models
+# - .valid? checks to see if our object is ready to be inserted into db, that is, if all our validations pass
 
-- Cat.all.pluck(:name) #give you an array of all cat names
-- however, when it returns only true / false, how do you know what you did wrong?
-- c.errors #will give u error
+# - Cat.all.pluck(:name) #give you an array of all cat names
+# - however, when it returns only true / false, how do you know what you did wrong?
+# - c.errors #will give u error
 
-Customer Validations
+# Customer Validations
 
-class Cat < ActiveRecord::Base
-	validate :no_green_cats
-end
+# class Cat < ActiveRecord::Base
+# 	validate :no_green_cats
+# end
 
-def no_green_cats
-	if self.color == "green"
-		self.errors[:color] << "can't be green"	#the symbol on this line is the column that you're checking
-	end
-end
+# def no_green_cats
+# 	if self.color == "green"
+# 		self.errors[:color] << "can't be green"	#the symbol on this line is the column that you're checking
+# 	end
+# end
 
--> c = Cat.new(name: 'mike', color: 'green')
--> c.valid? #=>false
--> c.error.full_messages #=> COlor can't be green
--> c.name = nil #=> you should now get two errors in an array: name can't be blank and color cant be green
+# -> c = Cat.new(name: 'mike', color: 'green')
+# -> c.valid? #=>false
+# -> c.error.full_messages #=> COlor can't be green
+# -> c.name = nil #=> you should now get two errors in an array: name can't be blank and color cant be green
 
 # ******************************************************************
 # Indices
