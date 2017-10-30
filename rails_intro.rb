@@ -251,6 +251,7 @@
 # 	ex: client side rendering of data (SPA - single page application)
 # 		> example of this is gmail. you're doing a bunch of stuff on one page (send, go to inbox, etc.) but you stay on one page
 
+# ******************************************************************
 # By I:
 # - Adding index to certain columns makes it treat it like a hash/tree rather than array (it will usually look thru as if an array)
 
