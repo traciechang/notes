@@ -257,3 +257,12 @@
 # Misc: launchy pusheen.com <- didn’t work
 # -> bundle exec launchy pusheen.com
 # - make it a habit of using bundle exec when you have a gemfile
+
+# ******************************************************************
+# By I
+
+# class SomeClass
+  # def some_method
+    # puts 'this is some method'
+  # end
+# end
