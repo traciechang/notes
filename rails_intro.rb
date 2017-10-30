@@ -251,6 +251,24 @@
 # 	ex: client side rendering of data (SPA - single page application)
 # 		> example of this is gmail. you're doing a bunch of stuff on one page (send, go to inbox, etc.) but you stay on one page
 
+************************************************************
+HTTP Request/Response
+
+Client (you on your laptop) makes an HTTP request to Server
+- in the request:
+  - method(GET, PUT, PATCH, POST, etc...)
+  - path (/users)
+  - query (?loc=SF&name)
+  - body (additional data. ex: email, password, age). Can't use with GET request.
+
+
+Server sends HTTP response back
+- Response
+  - status (200 OK, 404 NOT FOUND)
+  - body (main chunk of what comes back. ex: html, css, js needed to render website)
+
+We want to learn how to make a request to get the response you want.
+
 # ******************************************************************
 # By I:
 # - Adding index to certain columns makes it treat it like a hash/tree rather than array (it will usually look thru as if an array)
