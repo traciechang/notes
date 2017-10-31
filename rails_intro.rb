@@ -269,13 +269,13 @@
 
 # We want to learn how to make a request to get the response you want.
 
-************************************************************
-Rails Routing
+# ************************************************************
+# Rails Routing
 
-Server
-> HTTP request comes in , received by Rails
+# Server
+# > HTTP request comes in , received by Rails
 
-Router
+# Router
 
 > 1st hits Router: doesn't know how to deal w/ just knows to send to proper "person" to deal w/ and WHAT it needs to do
 	- path
