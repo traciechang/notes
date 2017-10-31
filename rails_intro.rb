@@ -277,18 +277,18 @@
 
 # Router
 
-> 1st hits Router: doesn't know how to deal w/ just knows to send to proper "person" to deal w/ and WHAT it needs to do
-	- path
-	- method
-> it has a list of combo of path and methods and which controllers for these
-> ex: UsersControllers
-> controllers have action (methods defined on controllers)
+# > 1st hits Router: doesn't know how to deal w/ just knows to send to proper "person" to deal w/ and WHAT it needs to do
+# 	- path
+# 	- method
+# > it has a list of combo of path and methods and which controllers for these
+# > ex: UsersControllers
+# > controllers have action (methods defined on controllers)
 
-1. Router checks routes
-2. Initialize a controller
-3. Call the right action
+# 1. Router checks routes
+# 2. Initialize a controller
+# 3. Call the right action
 
-Router will check this list: routes.rb file
+# Router will check this list: routes.rb file
 
 # ******************************************************************
 # By I:
