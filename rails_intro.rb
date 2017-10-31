@@ -269,6 +269,27 @@
 
 # We want to learn how to make a request to get the response you want.
 
+************************************************************
+Rails Routing
+
+Server
+> HTTP request comes in , received by Rails
+
+Router
+
+> 1st hits Router: doesn't know how to deal w/ just knows to send to proper "person" to deal w/ and WHAT it needs to do
+	- path
+	- method
+> it has a list of combo of path and methods and which controllers for these
+> ex: UsersControllers
+> controllers have action (methods defined on controllers)
+
+1. Router checks routes
+2. Initialize a controller
+3. Call the right action
+
+Router will check this list: routes.rb file
+
 # ******************************************************************
 # By I:
 # - Adding index to certain columns makes it treat it like a hash/tree rather than array (it will usually look thru as if an array)
