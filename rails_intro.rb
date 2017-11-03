@@ -299,7 +299,7 @@
 # - make it a habit of using bundle exec when you have a gemfile
 
 # ******************************************************************
-# By I
+# By I (need to add rest of this)
 
 # class SomeClass
   # def some_method
