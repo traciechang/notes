@@ -28,3 +28,22 @@ Ex. You are buying on Amazon, and adding items to your cart. A URL to your cart 
         - session token
 - everytime you log out, we delete session token out of the database
 - this way, if soemone sees your old session token, it's been invalidated.
+
+3. Encoding / Encryption
+- don't want to store pw in database in plain text
+
+- Encoding: you can figure out the original string (able to decode if you can figure out how it was encoded)
+- base64 encoding: encoded using ASCII
+        26 a-z
+        26 A-Z
+        10 0-9
+        1 -
+        1 + (or any other symbols)
+        total = 64^10 (if your original string was 10 chars)
+
+- Encryption
+        - Ex: caesar cipher ("abbc", 2) => "cdde"
+        - This is encrypted because you cannot figure out original string w/ just the encrypted. In this case, it depends on the shift number (2). It could have been 1, in which the original string was "bccd". 
+        - you need a Secret Key (2 in this case). If you don't have it, you cannot crack the code.
+
+- Now, let's say we encrypt the pw in the db. But we need the secret key to decode it. In turn, we'd have to store that key somewhere, therefore, encryption is not a viable option.
