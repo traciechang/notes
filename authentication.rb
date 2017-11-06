@@ -47,3 +47,34 @@ Ex. You are buying on Amazon, and adding items to your cart. A URL to your cart 
         - you need a Secret Key (2 in this case). If you don't have it, you cannot crack the code.
 
 - Now, let's say we encrypt the pw in the db. But we need the secret key to decode it. In turn, we'd have to store that key somewhere, therefore, encryption is not a viable option.
+
+4. Hashing
+Review: you can put anything into a hashing function and get an arbitrary number. It is one way. If you put in "hello" and get the output 2348947359384, there's no way to get "hello" back from this number. 
+- Everytime you put in "hello", you get same number
+
+- We can put a pw hash into our Users table. Put the pw into the hash function to get our pw hash
+- To check if pw is correct, we'd hash the pw the user entered and see if it matches the hash stored in our db
+
+- Hash Collision: when two arbitrary values put into hash function come out with same hash output
+
+- Cryptographic Hashing Functions
+        - more Secure
+        - minimize rate of collision (extremely low)
+        - Ex. SHA-1, MD5, SHA-2, Scrypt, Bcrypt (Blowfish)*
+        - you want to use state-of-the-art hashing functions at the time. As hashing fuctions get old, people figure out how to break it
+
+5. Salting
+- Rainbow tables: precomputed tables with most common passwords. Hackers hash most common pws with hashing functions such as SHA, MD5, and blowfish, create a table of this, and if they get your Users table, they can just match the hashes to figure out pw
+- how to solve this? Salting
+
+- Salting: a short string that is appended or prepended to the pw and you hash that whole thing
+- salt is generated anew for each user
+- Users table stores hash output AND salt
+
+- there is one more problem: what if hacker picks just one account that he wants to hack into?
+Ex: billgates12
+
+Solution: (last line of defense)
+- make it so expensive to crack the pw that hacker does not even think its worth it to try to crack it
+- run billgates12 plus the salt thru the hash function 40 times. Althought this may slow you down too (say, 100ms), cracker has to run this 10,000 times (for 10,000 most common pw) and slow him down significantly, also increasing his cost to crack the pw
+- Increase number of times you run input into hash function
