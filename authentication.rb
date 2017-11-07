@@ -78,3 +78,58 @@ Solution: (last line of defense)
 - make it so expensive to crack the pw that hacker does not even think its worth it to try to crack it
 - run billgates12 plus the salt thru the hash function 40 times. Althought this may slow you down too (say, 100ms), cracker has to run this 10,000 times (for 10,000 most common pw) and slow him down significantly, also increasing his cost to crack the pw
 - Increase number of times you run input into hash function
+
+6. Session, Flash
+- The 2 APIs you can use in Rails
+
+- Session: used in Control layer. A hash.
+Ex. session[:session_token] = "had933"
+
+- Flash
+        - a permanent cookie expires in 20 yrs
+        - what if you don't want a permanent cookie?
+    Ex: you send a POST request to create a new cat, but it was invalid. You don't just want to redirect the user back to the Add New Cat page, you want to tell them what errors too. But HTTP is stateless, so use temporary cookie w/ the error info
+    - cookie lives for one request
+    - you see this when red letters appear under username box and says "username can't be blank"
+    - lives for this request and the next
+
+    flash.now[:user_error]: this only exists for one request, not even goes to user
+    - not a cookie, not persistent
+
+7. Auth Pattern
+- never roll your own authentication
+Ex: User model
+        - validates password (makes sure the user enters a pw)
+        - checks that pw is certin length
+        - allow_nil: true <- this part of the validation allows you to pull out of database when nil
+        - self.password_digest = Bcrypt...
+        - might include methods such as generate_session_token, ensure_session_token, reset_sesssion_token
+        - class method: find_by_credentials(username, pw)
+
+    Users Controller
+        new <- register
+        create <-create new user/login
+
+    Session Controller
+        new <-login form
+        create <- logs u in
+        destroy <- log out
+
+    Application Controller
+        @current_user ||= <-so u don't have to keep finding the user
+        login!(user)
+        session[:session_token]=
+        redirect_unless_logged_in
+
+****************************************************
+CSRF attack (Cross Site Request Forgery)
+Ex: you click a button WIN A CAT and have no idea that it is posting to another website. It's using a bad site to do somethig to your good site
+- only works when you're logged in to good site
+- how to prevent this attack? you would use the "protect from forgery", but we are going to build one today
+
+- sandboxed: fb can't see your twitter cookies. Twitter can't see your fb cookies.
+
+Rails own: protect_from_forgery:
+- whitelists GET requests
+- checkes to see if already a token, if not, get one
+- the "with exception" part tells it to raise exception if something wrong
