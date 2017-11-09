@@ -18,16 +18,16 @@
 # - if you don't have cookies enabled, you can't have state
 # - cookies are sent in header
 
-- however, storing, for ex, cartID = 40, in your cookie is bad because client can go in and change the cartID in cookie and access someone else's cart.
+# - however, storing, for ex, cartID = 40, in your cookie is bad because client can go in and change the cartID in cookie and access someone else's cart.
 
-- You (client) send username and pw to server. Server sends back session token (record that you logged in, it associates w/ your username and pw right now)
-- Ex session_token = 382934839 (generated specially for u)
-- Users table would include:
-        - username
-        - pw
-        - session token
-- everytime you log out, we delete session token out of the database
-- this way, if soemone sees your old session token, it's been invalidated.
+# - You (client) send username and pw to server. Server sends back session token (record that you logged in, it associates w/ your username and pw right now)
+# - Ex session_token = 382934839 (generated specially for u)
+# - Users table would include:
+#         - username
+#         - pw
+#         - session token
+# - everytime you log out, we delete session token out of the database
+# - this way, if soemone sees your old session token, it's been invalidated.
 
 3. Encoding / Encryption
 - don't want to store pw in database in plain text
