@@ -12,11 +12,11 @@
 
 # 2. Cookies
 # - pieces (4kb) of data sent from website to browser. browser stores cookies, saved on client side
-- cookies are implemented by giant hash map
-- your browser enforces that only amazon can access amazon cookies
-- each domain can only have 20? cookies
-- if you don't have cookies enabled, you can't have state
-- cookies are sent in header
+# - cookies are implemented by giant hash map
+# - your browser enforces that only amazon can access amazon cookies
+# - each domain can only have 20? cookies
+# - if you don't have cookies enabled, you can't have state
+# - cookies are sent in header
 
 - however, storing, for ex, cartID = 40, in your cookie is bad because client can go in and change the cartID in cookie and access someone else's cart.
 
