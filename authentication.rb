@@ -10,8 +10,8 @@
 #     - HTTP is stateless: there is no way between different requests to the server that the server remembers who you are. Each request is independent.
 #     - We have a way to solve this: cookies
 
-2. Cookies
-- pieces (4kb) of data sent from website to browser. browser stores cookies, saved on client side
+# 2. Cookies
+# - pieces (4kb) of data sent from website to browser. browser stores cookies, saved on client side
 - cookies are implemented by giant hash map
 - your browser enforces that only amazon can access amazon cookies
 - each domain can only have 20? cookies
