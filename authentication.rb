@@ -48,20 +48,20 @@
 
 # - Now, let's say we encrypt the pw in the db. But we need the secret key to decode it. In turn, we'd have to store that key somewhere, therefore, encryption is not a viable option.
 
-4. Hashing
-Review: you can put anything into a hashing function and get an arbitrary number. It is one way. If you put in "hello" and get the output 2348947359384, there's no way to get "hello" back from this number. 
-- Everytime you put in "hello", you get same number
+# 4. Hashing
+# Review: you can put anything into a hashing function and get an arbitrary number. It is one way. If you put in "hello" and get the output 2348947359384, there's no way to get "hello" back from this number. 
+# - Everytime you put in "hello", you get same number
 
-- We can put a pw hash into our Users table. Put the pw into the hash function to get our pw hash
-- To check if pw is correct, we'd hash the pw the user entered and see if it matches the hash stored in our db
+# - We can put a pw hash into our Users table. Put the pw into the hash function to get our pw hash
+# - To check if pw is correct, we'd hash the pw the user entered and see if it matches the hash stored in our db
 
-- Hash Collision: when two arbitrary values put into hash function come out with same hash output
+# - Hash Collision: when two arbitrary values put into hash function come out with same hash output
 
-- Cryptographic Hashing Functions
-        - more Secure
-        - minimize rate of collision (extremely low)
-        - Ex. SHA-1, MD5, SHA-2, Scrypt, Bcrypt (Blowfish)*
-        - you want to use state-of-the-art hashing functions at the time. As hashing fuctions get old, people figure out how to break it
+# - Cryptographic Hashing Functions
+#         - more Secure
+#         - minimize rate of collision (extremely low)
+#         - Ex. SHA-1, MD5, SHA-2, Scrypt, Bcrypt (Blowfish)*
+#         - you want to use state-of-the-art hashing functions at the time. As hashing fuctions get old, people figure out how to break it
 
 5. Salting
 - Rainbow tables: precomputed tables with most common passwords. Hackers hash most common pws with hashing functions such as SHA, MD5, and blowfish, create a table of this, and if they get your Users table, they can just match the hashes to figure out pw
