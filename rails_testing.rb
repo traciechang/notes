@@ -1,10 +1,10 @@
-Rails Testing 11/13/17
+# Rails Testing 11/13/17
 
-**Setup**
+# **Setup**
 
-- in Gemfile, groups such as :test and :environment specify what environment the gems under it are available in
+# - in Gemfile, groups such as :test and :environment specify what environment the gems under it are available in
 
-> rails g model TestModel
+# > rails g model TestModel
 
 **Models**
 What to test?
