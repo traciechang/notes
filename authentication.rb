@@ -63,21 +63,21 @@
 #         - Ex. SHA-1, MD5, SHA-2, Scrypt, Bcrypt (Blowfish)*
 #         - you want to use state-of-the-art hashing functions at the time. As hashing fuctions get old, people figure out how to break it
 
-5. Salting
-- Rainbow tables: precomputed tables with most common passwords. Hackers hash most common pws with hashing functions such as SHA, MD5, and blowfish, create a table of this, and if they get your Users table, they can just match the hashes to figure out pw
-- how to solve this? Salting
+# 5. Salting
+# - Rainbow tables: precomputed tables with most common passwords. Hackers hash most common pws with hashing functions such as SHA, MD5, and blowfish, create a table of this, and if they get your Users table, they can just match the hashes to figure out pw
+# - how to solve this? Salting
 
-- Salting: a short string that is appended or prepended to the pw and you hash that whole thing
-- salt is generated anew for each user
-- Users table stores hash output AND salt
+# - Salting: a short string that is appended or prepended to the pw and you hash that whole thing
+# - salt is generated anew for each user
+# - Users table stores hash output AND salt
 
-- there is one more problem: what if hacker picks just one account that he wants to hack into?
-Ex: billgates12
+# - there is one more problem: what if hacker picks just one account that he wants to hack into?
+# Ex: billgates12
 
-Solution: (last line of defense)
-- make it so expensive to crack the pw that hacker does not even think its worth it to try to crack it
-- run billgates12 plus the salt thru the hash function 40 times. Althought this may slow you down too (say, 100ms), cracker has to run this 10,000 times (for 10,000 most common pw) and slow him down significantly, also increasing his cost to crack the pw
-- Increase number of times you run input into hash function
+# Solution: (last line of defense)
+# - make it so expensive to crack the pw that hacker does not even think its worth it to try to crack it
+# - run billgates12 plus the salt thru the hash function 40 times. Althought this may slow you down too (say, 100ms), cracker has to run this 10,000 times (for 10,000 most common pw) and slow him down significantly, also increasing his cost to crack the pw
+# - Increase number of times you run input into hash function
 
 6. Session, Flash
 - The 2 APIs you can use in Rails
