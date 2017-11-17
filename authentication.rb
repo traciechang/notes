@@ -96,30 +96,30 @@
 #     flash.now[:user_error]: this only exists for one request, not even goes to user
 #     - not a cookie, not persistent
 
-7. Auth Pattern
-- never roll your own authentication
-Ex: User model
-        - validates password (makes sure the user enters a pw)
-        - checks that pw is certin length
-        - allow_nil: true <- this part of the validation allows you to pull out of database when nil
-        - self.password_digest = Bcrypt...
-        - might include methods such as generate_session_token, ensure_session_token, reset_sesssion_token
-        - class method: find_by_credentials(username, pw)
+# 7. Auth Pattern
+# - never roll your own authentication
+# Ex: User model
+#         - validates password (makes sure the user enters a pw)
+#         - checks that pw is certin length
+#         - allow_nil: true <- this part of the validation allows you to pull out of database when nil
+#         - self.password_digest = Bcrypt...
+#         - might include methods such as generate_session_token, ensure_session_token, reset_sesssion_token
+#         - class method: find_by_credentials(username, pw)
 
-    Users Controller
-        new <- register
-        create <-create new user/login
+#     Users Controller
+#         new <- register
+#         create <-create new user/login
 
-    Session Controller
-        new <-login form
-        create <- logs u in
-        destroy <- log out
+#     Session Controller
+#         new <-login form
+#         create <- logs u in
+#         destroy <- log out
 
-    Application Controller
-        @current_user ||= <-so u don't have to keep finding the user
-        login!(user)
-        session[:session_token]=
-        redirect_unless_logged_in
+#     Application Controller
+#         @current_user ||= <-so u don't have to keep finding the user
+#         login!(user)
+#         session[:session_token]=
+#         redirect_unless_logged_in
 
 ****************************************************
 CSRF attack (Cross Site Request Forgery)
