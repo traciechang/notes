@@ -79,22 +79,22 @@
 # - run billgates12 plus the salt thru the hash function 40 times. Althought this may slow you down too (say, 100ms), cracker has to run this 10,000 times (for 10,000 most common pw) and slow him down significantly, also increasing his cost to crack the pw
 # - Increase number of times you run input into hash function
 
-6. Session, Flash
-- The 2 APIs you can use in Rails
+# 6. Session, Flash
+# - The 2 APIs you can use in Rails
 
-- Session: used in Control layer. A hash.
-Ex. session[:session_token] = "had933"
+# - Session: used in Control layer. A hash.
+# Ex. session[:session_token] = "had933"
 
-- Flash
-        - a permanent cookie expires in 20 yrs
-        - what if you don't want a permanent cookie?
-    Ex: you send a POST request to create a new cat, but it was invalid. You don't just want to redirect the user back to the Add New Cat page, you want to tell them what errors too. But HTTP is stateless, so use temporary cookie w/ the error info
-    - cookie lives for one request
-    - you see this when red letters appear under username box and says "username can't be blank"
-    - lives for this request and the next
+# - Flash
+#         - a permanent cookie expires in 20 yrs
+#         - what if you don't want a permanent cookie?
+#     Ex: you send a POST request to create a new cat, but it was invalid. You don't just want to redirect the user back to the Add New Cat page, you want to tell them what errors too. But HTTP is stateless, so use temporary cookie w/ the error info
+#     - cookie lives for one request
+#     - you see this when red letters appear under username box and says "username can't be blank"
+#     - lives for this request and the next
 
-    flash.now[:user_error]: this only exists for one request, not even goes to user
-    - not a cookie, not persistent
+#     flash.now[:user_error]: this only exists for one request, not even goes to user
+#     - not a cookie, not persistent
 
 7. Auth Pattern
 - never roll your own authentication
