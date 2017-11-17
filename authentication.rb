@@ -121,15 +121,15 @@
 #         session[:session_token]=
 #         redirect_unless_logged_in
 
-****************************************************
-CSRF attack (Cross Site Request Forgery)
-Ex: you click a button WIN A CAT and have no idea that it is posting to another website. It's using a bad site to do somethig to your good site
-- only works when you're logged in to good site
-- how to prevent this attack? you would use the "protect from forgery", but we are going to build one today
+# ****************************************************
+# CSRF attack (Cross Site Request Forgery)
+# Ex: you click a button WIN A CAT and have no idea that it is posting to another website. It's using a bad site to do somethig to your good site
+# - only works when you're logged in to good site
+# - how to prevent this attack? you would use the "protect from forgery", but we are going to build one today
 
-- sandboxed: fb can't see your twitter cookies. Twitter can't see your fb cookies.
+# - sandboxed: fb can't see your twitter cookies. Twitter can't see your fb cookies.
 
-Rails own: protect_from_forgery:
-- whitelists GET requests
-- checkes to see if already a token, if not, get one
-- the "with exception" part tells it to raise exception if something wrong
+# Rails own: protect_from_forgery:
+# - whitelists GET requests
+# - checkes to see if already a token, if not, get one
+# - the "with exception" part tells it to raise exception if something wrong
