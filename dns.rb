@@ -3,9 +3,9 @@
 # Domain Name Service
 # ex: www.google.com
 
-IP address 192.168.1.1
-This is what computer can actually read.
-- google.com is just for humans to easily remember and type
+# IP address 192.168.1.1
+# This is what computer can actually read.
+# - google.com is just for humans to easily remember and type
 
 - how does browser turn google.com into IP address?
     - browser asks operating system if you've been there before
