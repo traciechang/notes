@@ -1,7 +1,7 @@
-DNS 11/17/17
+# DNS 11/17/17
 
-Domain Name Service
-ex: www.google.com
+# Domain Name Service
+# ex: www.google.com
 
 IP address 192.168.1.1
 This is what computer can actually read.
