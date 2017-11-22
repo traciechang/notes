@@ -10,7 +10,7 @@
 #     Also many servers:
 #     - Webrick, puma, thin, unicorn
 
-    - server's responsibility to parse string into something that ruby can use. every server does this differently
-    - once framework does something w/ this, it returns back something to server, which could be different for every framework
+    # - server's responsibility to parse string into something that ruby can use. every server does this differently
+    # - once framework does something w/ this, it returns back something to server, which could be different for every framework
 
-    - middleware solves this problem (Rack): common interface on each side that has agreed upon set of rules
+    # - middleware solves this problem (Rack): common interface on each side that has agreed upon set of rules
