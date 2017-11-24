@@ -1,7 +1,7 @@
-Rails Lite Intro 11/17/17
+# Rails Lite Intro 11/17/17
 
-Things to keep in mind:
-- try not to focus on spec passing without understanding what point is
+# Things to keep in mind:
+# - try not to focus on spec passing without understanding what point is
 
 What it is: web application framework: software framework for web apps
 - for ex, if you're building your own bank app, you don't want to write boring repetitive work that is the same for every app. You want to make the stuff that is unique to your app. The framework does that for you.
