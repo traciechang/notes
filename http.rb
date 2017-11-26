@@ -1,8 +1,8 @@
-HTTP 11/17/17
+# HTTP 11/17/17
 
-Hypertext - takes you to some additional media (link)
+# Hypertext - takes you to some additional media (link)
 
-Transfer - sending this hpyertext from one location to another (client > server, then back)
+# Transfer - sending this hpyertext from one location to another (client > server, then back)
 
 Protocol - based on agreed upon set of rules of how communication takes place
 
