@@ -17,11 +17,11 @@
 #     2. query string
 #     3. url 
 
-    - Remember that your conotroller inherits from Action Controller. Your UserController will call UserModel, it will then hit databse, and return back bunch of User objects (ruby objects that are instances of User Model). User Controller then will render View.
-    - Your Model inherits from Active Record Base
-    - In the end, it will take the View and send back in the HTTP response
-What will we need to do?
-    - Router: needs functionality to load routes file and add the routes somehow
-        - needds to be able to check if route created and see if any matches
-        - instantiate instance of new Controller and send actions and give it params
-    - Controller needs acces to Model and render Views
+#     - Remember that your conotroller inherits from Action Controller. Your UserController will call UserModel, it will then hit databse, and return back bunch of User objects (ruby objects that are instances of User Model). User Controller then will render View.
+#     - Your Model inherits from Active Record Base
+#     - In the end, it will take the View and send back in the HTTP response
+# What will we need to do?
+#     - Router: needs functionality to load routes file and add the routes somehow
+#         - needds to be able to check if route created and see if any matches
+#         - instantiate instance of new Controller and send actions and give it params
+#     - Controller needs acces to Model and render Views
