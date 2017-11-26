@@ -4,7 +4,7 @@
 
 # Transfer - sending this hpyertext from one location to another (client > server, then back)
 
-Protocol - based on agreed upon set of rules of how communication takes place
+# Protocol - based on agreed upon set of rules of how communication takes place
 
 - HTTP Request
 Ex: we are connected to a server of a site and you want to request all cats on this site. Because u are requesting, it's a GET request
