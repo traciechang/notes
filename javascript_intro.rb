@@ -32,7 +32,7 @@
 #     however, we would be creating this function for every instance of MBAPlayer we create, which is not DRY
 
 
-****************************************************
-- Callbacks and Closures
+# ****************************************************
+# - Callbacks and Closures
 
-callback: a function that is passed to another function as an argument that is to be used at a later time
+# callback: a function that is passed to another function as an argument that is to be used at a later time
