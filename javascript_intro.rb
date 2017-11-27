@@ -1,11 +1,11 @@
-Javascript Intro 11/21/17
+# Javascript Intro 11/21/17
 
-- Constructor Functions:
-function NBAPlayer(name, team, pos){
-    this.name = name;
-    this.team = team;
-    this.pos = pos;
-}
+# - Constructor Functions:
+# function NBAPlayer(name, team, pos){
+#     this.name = name;
+#     this.team = team;
+#     this.pos = pos;
+# }
 
 const curry = new MBAPlayer();
 
