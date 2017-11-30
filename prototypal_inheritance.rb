@@ -1,13 +1,13 @@
-JS - Prototypal Inheritance 11/27/17
+# JS - Prototypal Inheritance 11/27/17
 
-Ex: 
-function Dog (name){
-    this.name = name
-}
+# Ex: 
+# function Dog (name){
+#     this.name = name
+# }
 
-Dog.prototype.woof = function() {
-    console.log(this.name + "woof")
-}
+# Dog.prototype.woof = function() {
+#     console.log(this.name + "woof")
+# }
 
 We have a Dog function -> a prototype is a property of this function
 - Dog is a blank object
