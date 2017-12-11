@@ -5,10 +5,10 @@
 
 # - frontend: browser's job is to render html
 
-Ajax: browser can make an http request without throwing away everything it already has. Server will respond w/ JSON instead of html
-- asynchronous means that it is happening in the background
+# Ajax: browser can make an http request without throwing away everything it already has. Server will respond w/ JSON instead of html
+# - asynchronous means that it is happening in the background
 
-Ex: Instagram. When you keep scrolling, pictures keep popping up. You don't have to click button that says next 5 pictures. Javascript detects that you're at bottom of page and requests more.
+# Ex: Instagram. When you keep scrolling, pictures keep popping up. You don't have to click button that says next 5 pictures. Javascript detects that you're at bottom of page and requests more.
 
 Why? if we can reduce amount of times server needs to load things, we can reduce times
 
