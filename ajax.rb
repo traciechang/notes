@@ -1,9 +1,9 @@
-Ajax 12/7/17
+# Ajax 12/7/17
 
-- backend's job is to receive a request and make a response
-    > rails: database, models, controllers
+# - backend's job is to receive a request and make a response
+#     > rails: database, models, controllers
 
-- frontend: browser's job is to render html
+# - frontend: browser's job is to render html
 
 Ajax: browser can make an http request without throwing away everything it already has. Server will respond w/ JSON instead of html
 - asynchronous means that it is happening in the background
