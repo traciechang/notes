@@ -27,15 +27,15 @@
 # youtube.com/users/123
 # for editing/updating
 
-Routes.rb
-- If someone navigates to this page, I want this controller to to handle this
-- - by declaring resources :users, by default it gives you index, new, create, show, edit, update, destroy, etc.
-- All these routes are done for us. But our controller doesn’t know how to handle these actions
+# Routes.rb
+# - If someone navigates to this page, I want this controller to to handle this
+# - - by declaring resources :users, by default it gives you index, new, create, show, edit, update, destroy, etc.
+# - All these routes are done for us. But our controller doesn’t know how to handle these actions
 
-users_controller.rb
-- Def index
-- End
+# users_controller.rb
+# - Def index
+# - End
 
-Rails is going to look for a view 
+# Rails is going to look for a view 
 
-Go to Views folder, make a users folder > create index.html.erb file
+# Go to Views folder, make a users folder > create index.html.erb file
