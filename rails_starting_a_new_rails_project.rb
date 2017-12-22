@@ -1,11 +1,11 @@
-Start new rails project 10/25/17 by I
-> Gem install rails
-> rails new youtube
+# Start new rails project 10/25/17 by I
+# > Gem install rails
+# > rails new youtube
 
-> rails g controller users
-- Controllers naming convention is plural
-- Ex. Maybe there’s a page u want to see all users for youtube
-- need to create routes
+# > rails g controller users
+# - Controllers naming convention is plural
+# - Ex. Maybe there’s a page u want to see all users for youtube
+# - need to create routes
 
 RESTful API design - if I am building app and want to list all users for this app, I’m going to go to users resource and if I don’t declare anything after users, I’m going to get all the users back
 
