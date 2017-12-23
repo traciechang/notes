@@ -13,17 +13,17 @@
 #   }
 # ]
 
-people.forEach((person) => {
-  console.log(person.lastName);
+# people.forEach((person) => {
+#   console.log(person.lastName);
 
-  // before es5/6
-  person["lastName"]
+#   // before es5/6
+#   person["lastName"]
 
-  // with es5/6
-  person.lastName
+#   // with es5/6
+#   person.lastName
 
-  // destructure
-  { lastName }
+#   // destructure
+#   { lastName }
 
-  // do something to the person object
-})
+#   // do something to the person object
+# })
