@@ -1,17 +1,17 @@
-12/21/17 by I
+# 12/21/17 by I
 
-var matches = document.querySelectorAll("div.note, div.alert");
+# var matches = document.querySelectorAll("div.note, div.alert");
 
-const people = [
-  {
-    firstName: 'tracie',
-    lastName: 'chang'
-  },
-  {
-    firstName: 'ian',
-    lastName: 'nguyen'
-  }
-]
+# const people = [
+#   {
+#     firstName: 'tracie',
+#     lastName: 'chang'
+#   },
+#   {
+#     firstName: 'ian',
+#     lastName: 'nguyen'
+#   }
+# ]
 
 people.forEach((person) => {
   console.log(person.lastName);
