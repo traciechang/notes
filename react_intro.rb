@@ -1,4 +1,4 @@
-React Intro 1/2/18
+# React Intro 1/2/18
 
 # - How does broswer read JSX? It gets transpiled into JS
 
