@@ -1,7 +1,7 @@
 # Redux - Fruit Stand App 1/4/17
 
-- React will be used for the buttons and our fruit list
-- Redux will be responsible for managing/remembering our fruit basket
+# - React will be used for the buttons and our fruit list
+# - Redux will be responsible for managing/remembering our fruit basket
 
 Redux
 - Store:
