@@ -18,16 +18,16 @@
 #         > use this to get new state (updated object)
 
 
-ES6 implicit return:
-const addOrange = () => ({
+# ES6 implicit return:
+# const addOrange = () => ({
 
-})
+# })
 
-React components made up of 2 layers:
-- Container: interact w/ redux pieces. Talks to Store via connect function from React/Redux library
-    - generates props and pass them to Presentational layer
-    - Props include:
-        - pieces of state (ex: list of fruits)
-        - event handlers (ex: click handler like add apple)
-    - also interacts w/ action creators and dispatch actions
-- Presentational: describe how our components should look. Rarely has more than render function
+# React components made up of 2 layers:
+# - Container: interact w/ redux pieces. Talks to Store via connect function from React/Redux library
+#     - generates props and pass them to Presentational layer
+#     - Props include:
+#         - pieces of state (ex: list of fruits)
+#         - event handlers (ex: click handler like add apple)
+#     - also interacts w/ action creators and dispatch actions
+# - Presentational: describe how our components should look. Rarely has more than render function
