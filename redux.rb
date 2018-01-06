@@ -31,3 +31,21 @@
 #         - event handlers (ex: click handler like add apple)
 #     - also interacts w/ action creators and dispatch actions
 # - Presentational: describe how our components should look. Rarely has more than render function
+
+by I
+
+- flux/redux are not frameworks. they are philosophies (ways to do something)
+
+- in React, you have button where u click and install clickhandler
+- dispatch listens for actions. when it hears, it will dispatch acction to store
+- once store is updated, it notifies all views that are subscribed to it to re-render
+
+- flux very boilerplate > u see same structure of code duplicated alot, with minor differences. Ex: u make cat store, dog, lizard, etc.
+
+Redux:
+1. Single Source of Truth:
+ > redux has one store for everything in your app. One giant hash.
+2. State is Read Only 
+ > 
+ 
+ - u can think of reducer as a small step between Dispatch and Store, to prevent direct changes to the store.
