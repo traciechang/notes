@@ -49,3 +49,57 @@ Redux:
  > 
  
  - u can think of reducer as a small step between Dispatch and Store, to prevent direct changes to the store.
+
+ **********************************************
+
+ - every component is a function and props is passed in as argument by default
+
+ // 2 ways of writing React components
+
+// "dumb" components
+ // -> stateless function
+   // most cases it's meant to just be pure simple DOM
+
+const Root => (props, ...someOtherArgs) => {
+  return (
+    <div>
+      I'm Root
+    </div>
+  )
+}
+
+const Root => (props) =>
+  <div>
+    I'm Root
+  </div>
+
+
+
+
+// "smart"/"stateful" components
+// any state
+// you require a lifecycle method
+
+import React from 'react';
+
+class Root extends React.Component {
+  // constructor(props) => {
+
+  // }
+
+  renderTitle(title) => {
+    <h1>{title}</h1>
+  }
+
+  render() {
+    this.state;
+    this.props;
+    this.renderTitle();
+
+    return (
+      <div>
+        I'm Root
+      </div>
+    )
+  }
+}
