@@ -103,3 +103,6 @@ class Root extends React.Component {
     )
   }
 }
+
+- stateless function: no state, no functions like didmount, etc
+- if you want state, use class Something extends React.Component
