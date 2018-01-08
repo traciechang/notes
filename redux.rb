@@ -106,3 +106,81 @@ class Root extends React.Component {
 
 - stateless function: no state, no functions like didmount, etc
 - if you want state, use class Something extends React.Component
+
+// FLUX
+
+// ACTIONS
+  // is simply on object
+  // i.e.
+    {
+      type: 'createTodo',
+      payload: {
+        data: ...,
+        name: '',
+      }
+    }
+  // i.e click handler
+// DISPATCH
+  (action) => {
+    case action.type:
+      when 'createTodo': (payload) => {
+        catStore.createNewCat(payload);
+      }
+  }
+  // actions gets dispatched
+  // registry of callbacks based on the action that it receives
+  // case statements
+    // if the action is 'whistle blow'
+      // do something in the store
+// STORE
+  // 'subscribes' to a dispatcher
+  // place where your data/state is kept
+  // an array
+  // any data structure
+  // after the store is updated, it emits a change event
+    // this tells whatever views inside of the change event's callback to update themselves
+class CatStore {
+  this.cats = [];
+
+  const create = (payload) => {
+    this.cats.push(payload);
+  }
+
+  const all = () => {
+    return cats;
+  }
+
+  const find = (id) => {
+    cats.forEach((cat) => {
+      if (cat.id == id) { return cat; }
+    })
+  }
+}
+
+CatStore = []
+DogStore = []
+LizardStore = []
+
+store = {
+  cats: [],
+  dogs: [],
+  lizards: ['norbert'],
+}
+
+// reducer
+// action add new lizard
+// 1. takes whatever was previously in lizard slice of the state tree
+// 2. you do what want with that previous state.
+// 3. you rewrite that new state to the slice of the state tree
+
+
+// VIEW
+
+// RAILS
+
+// HTTP VERB
+// DELEGATION OF CONTROLLER ACTION
+// DATABASE / CONTROLLER THINGS
+// VIEW / RESPONSE
+
+
