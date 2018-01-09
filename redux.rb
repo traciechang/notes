@@ -76,33 +76,33 @@
 
 
 
-// "smart"/"stateful" components
-// any state
-// you require a lifecycle method
+# // "smart"/"stateful" components
+# // any state
+# // you require a lifecycle method
 
-import React from 'react';
+# import React from 'react';
 
-class Root extends React.Component {
-  // constructor(props) => {
+# class Root extends React.Component {
+#   // constructor(props) => {
 
-  // }
+#   // }
 
-  renderTitle(title) => {
-    <h1>{title}</h1>
-  }
+#   renderTitle(title) => {
+#     <h1>{title}</h1>
+#   }
 
-  render() {
-    this.state;
-    this.props;
-    this.renderTitle();
+#   render() {
+#     this.state;
+#     this.props;
+#     this.renderTitle();
 
-    return (
-      <div>
-        I'm Root
-      </div>
-    )
-  }
-}
+#     return (
+#       <div>
+#         I'm Root
+#       </div>
+#     )
+#   }
+# }
 
 - stateless function: no state, no functions like didmount, etc
 - if you want state, use class Something extends React.Component
