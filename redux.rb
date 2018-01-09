@@ -60,18 +60,18 @@
 #  // -> stateless function
 #    // most cases it's meant to just be pure simple DOM
 
-const Root => (props, ...someOtherArgs) => {
-  return (
-    <div>
-      I'm Root
-    </div>
-  )
-}
+# const Root => (props, ...someOtherArgs) => {
+#   return (
+#     <div>
+#       I'm Root
+#     </div>
+#   )
+# }
 
-const Root => (props) =>
-  <div>
-    I'm Root
-  </div>
+# const Root => (props) =>
+#   <div>
+#     I'm Root
+#   </div>
 
 
 
