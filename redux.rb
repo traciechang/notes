@@ -50,15 +50,15 @@
  
 #  - u can think of reducer as a small step between Dispatch and Store, to prevent direct changes to the store.
 
- **********************************************
+#  **********************************************
 
- - every component is a function and props is passed in as argument by default
+#  - every component is a function and props is passed in as argument by default
 
- // 2 ways of writing React components
+#  // 2 ways of writing React components
 
-// "dumb" components
- // -> stateless function
-   // most cases it's meant to just be pure simple DOM
+# // "dumb" components
+#  // -> stateless function
+#    // most cases it's meant to just be pure simple DOM
 
 const Root => (props, ...someOtherArgs) => {
   return (
