@@ -157,30 +157,30 @@
 #   }
 # }
 
-CatStore = []
-DogStore = []
-LizardStore = []
+# CatStore = []
+# DogStore = []
+# LizardStore = []
 
-store = {
-  cats: [],
-  dogs: [],
-  lizards: ['norbert'],
-}
+# store = {
+#   cats: [],
+#   dogs: [],
+#   lizards: ['norbert'],
+# }
 
-// reducer
-// action add new lizard
-// 1. takes whatever was previously in lizard slice of the state tree
-// 2. you do what want with that previous state.
-// 3. you rewrite that new state to the slice of the state tree
+# // reducer
+# // action add new lizard
+# // 1. takes whatever was previously in lizard slice of the state tree
+# // 2. you do what want with that previous state.
+# // 3. you rewrite that new state to the slice of the state tree
 
 
-// VIEW
+# // VIEW
 
-// RAILS
+# // RAILS
 
-// HTTP VERB
-// DELEGATION OF CONTROLLER ACTION
-// DATABASE / CONTROLLER THINGS
-// VIEW / RESPONSE
+# // HTTP VERB
+# // DELEGATION OF CONTROLLER ACTION
+# // DATABASE / CONTROLLER THINGS
+# // VIEW / RESPONSE
 
 
