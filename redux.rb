@@ -127,11 +127,13 @@
 #         catStore.createNewCat(payload);
 #       }
 #   }
+
 #   // actions gets dispatched
 #   // registry of callbacks based on the action that it receives
 #   // case statements
 #     // if the action is 'whistle blow'
 #       // do something in the store
+    
 # // STORE
 #   // 'subscribes' to a dispatcher
 #   // place where your data/state is kept
