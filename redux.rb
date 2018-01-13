@@ -51,6 +51,7 @@
 #  - u can think of reducer as a small step between Dispatch and Store, to prevent direct changes to the store.
 
 #  **********************************************
+# by I
 
 #  - every component is a function and props is passed in as argument by default
 
