@@ -10,7 +10,7 @@
 # - in interviews, you can say that you are:
 #     - product-focused and human-focused
 
-**********************************************
+# **********************************************
 
 UX for Web
 - expect users to muddle thru website, not linear
