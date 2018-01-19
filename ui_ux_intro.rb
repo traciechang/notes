@@ -1,14 +1,14 @@
-Intro to UI/UX 1/18/18
+# Intro to UI/UX 1/18/18
 
-- User Interface
-    - the saddle, stirrup, and reigns
-    - how user interacts w/ it
-- User experience
-    - the feeling u get riding horse
-    - good UX does not mean pretty
+# - User Interface
+#     - the saddle, stirrup, and reigns
+#     - how user interacts w/ it
+# - User experience
+#     - the feeling u get riding horse
+#     - good UX does not mean pretty
 
-- in interviews, you can say that you are:
-    - product-focused and human-focused
+# - in interviews, you can say that you are:
+#     - product-focused and human-focused
 
 **********************************************
 
