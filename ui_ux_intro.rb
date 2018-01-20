@@ -12,12 +12,12 @@
 
 # **********************************************
 
-UX for Web
-- expect users to muddle thru website, not linear
-    - take advantage of convention
-        - expect search bar will search entire website
-        - when click on logo, takes u to homepage
-        - etc. we expect this because other websites do this as well
+# UX for Web
+# - expect users to muddle thru website, not linear
+#     - take advantage of convention
+#         - expect search bar will search entire website
+#         - when click on logo, takes u to homepage
+#         - etc. we expect this because other websites do this as well
 
     - create effective visual hierarchies
         - should be able to tell what are titles, etc
