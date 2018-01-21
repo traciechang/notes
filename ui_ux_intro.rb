@@ -19,8 +19,8 @@
 #         - when click on logo, takes u to homepage
 #         - etc. we expect this because other websites do this as well
 
-    - create effective visual hierarchies
-        - should be able to tell what are titles, etc
+    # - create effective visual hierarchies
+    #     - should be able to tell what are titles, etc
 
     - eliminate distractions
         - no extraneous stuff. minimalist is good
