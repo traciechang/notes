@@ -22,8 +22,8 @@
     # - create effective visual hierarchies
     #     - should be able to tell what are titles, etc
 
-    - eliminate distractions
-        - no extraneous stuff. minimalist is good
+    # - eliminate distractions
+    #     - no extraneous stuff. minimalist is good
 
 - make it mindless, have low expectations of your users
 - quality = "less thought needed"
