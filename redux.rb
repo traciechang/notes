@@ -186,6 +186,6 @@
 # // DATABASE / CONTROLLER THINGS
 # // VIEW / RESPONSE
 
-**********************************************
+# **********************************************
 # mounting -> 1st render of component
-connect causes rerender if state changed
+# connect causes rerender if state changed
