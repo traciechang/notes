@@ -188,4 +188,4 @@
 
 **********************************************
 # mounting -> 1st render of component
-
+connect causes rerender if state changed
