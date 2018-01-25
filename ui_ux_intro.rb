@@ -25,8 +25,8 @@
     # - eliminate distractions
     #     - no extraneous stuff. minimalist is good
 
-- make it mindless, have low expectations of your users
-- quality = "less thought needed"
+# - make it mindless, have low expectations of your users
+# - quality = "less thought needed"
 
 principles of UX design
 - keep simple
