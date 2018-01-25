@@ -28,8 +28,8 @@
 # - make it mindless, have low expectations of your users
 # - quality = "less thought needed"
 
-principles of UX design
-- keep simple
+# principles of UX design
+# - keep simple
 - guide users to what u want
 - everything should be where u expeect
 - should do what u expect
