@@ -35,7 +35,7 @@
 # - should do what u expect
 # - user test to ensure these
 
-- recruiters will not take time to try to figure out how to navigate your site
+# - recruiters will not take time to try to figure out how to navigate your site
 
 ***********************************************
 
