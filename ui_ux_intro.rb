@@ -37,12 +37,12 @@
 
 # - recruiters will not take time to try to figure out how to navigate your site
 
-***********************************************
+# ***********************************************
 
-UI Affordance and Signifiers
+# UI Affordance and Signifiers
 
-perceived affordance - what the user thinks is an affordance
-signifier - a clue that an object has an affordance, influencing perceived affordance
+# perceived affordance - what the user thinks is an affordance
+# signifier - a clue that an object has an affordance, influencing perceived affordance
     - ex. button is designed that let user know that it can be clicked
     - explicit
     - pattern
