@@ -43,10 +43,10 @@
 
 # perceived affordance - what the user thinks is an affordance
 # signifier - a clue that an object has an affordance, influencing perceived affordance
-    - ex. button is designed that let user know that it can be clicked
-    - explicit
-    - pattern
-    - metaphor
+    # - ex. button is designed that let user know that it can be clicked
+    # - explicit
+    # - pattern
+    # - metaphor
     - negative: absence of affordance
         - ex: greyed out button
     - lying signifier - false perceived affordance (bad)
