@@ -47,8 +47,8 @@
     # - explicit
     # - pattern
     # - metaphor
-    - negative: absence of affordance
-        - ex: greyed out button
+    # - negative: absence of affordance
+    #     - ex: greyed out button
     - lying signifier - false perceived affordance (bad)
         - looks like a button but its not clickable
 
