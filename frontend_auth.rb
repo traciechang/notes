@@ -1,16 +1,16 @@
-Frontend Authentication: Intro 1/18/18
+# Frontend Authentication: Intro 1/18/18
 
-- Rails Authentication
-    - user table holds ID, email, password digest, session token
+# - Rails Authentication
+#     - user table holds ID, email, password digest, session token
 
-- Main diff between rails auth and auth via API
-    - instead of rails backend serving html views, rails backend only will receive info in form of json from frontend & serving info back as json to frontend
+# - Main diff between rails auth and auth via API
+#     - instead of rails backend serving html views, rails backend only will receive info in form of json from frontend & serving info back as json to frontend
 
-- heart of rails auth will stay same. Includes:
-    - user model
-    - user controller
-    - session controller
-    - application controller (ex. login, logout, current user helper, etc)
+# - heart of rails auth will stay same. Includes:
+#     - user model
+#     - user controller
+#     - session controller
+#     - application controller (ex. login, logout, current user helper, etc)
 
 *****************************************
 
