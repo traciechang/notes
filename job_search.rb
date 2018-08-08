@@ -51,7 +51,12 @@
 - What are your 5 year plans?  
 - Do you have any questions for us?
 
+# **********************************************************************
+
 * Behavioral Questions *
+- tell a story - concrete details w/ start, middle, end
+- 30 seconds
+- Answers to these questions can come from your work history, academic projects, or even personal projects.
 - Asks about the way you’ve handled projects in the past. 
 - May start with “Tell me about a time when…” or similar. 
 - Request for concrete examples from your past.  
@@ -59,6 +64,8 @@
     Tell me about a challenge you ran into on that project.
     What did you like most/least about that project?  
     Tell me about a time you had a conflict with a supervisor.
+    Tell me about a time you ran into an interpersonal conflict.
+    What did you learn from that experience?  
 - (Spend less time describing problem, and more time on action you took to resolve issues.)
 
 * Problem/Action/Result (beginning/middle/end)
@@ -74,7 +81,46 @@
  - Result: "I worked with our office manager to get the system set up, and two months later, we not only had cleaner data that was easier to update, but were able to keep track of almost twice as many metrics as we were before."
 
 * Thoughtful questions to ask interviewer
-- What are your procedures for testing and releasing code?  
-- What are the company’s goals this year, and what problems are you running into that a new employee can help with?    
-- What problems have you run into while scaling the user base?  
-- Why did you pick Angular.js as your front-end framework?
+    -What is the onboarding process? 
+    -Walk me through a typical workday for you.  
+    -What tasks do you do and when?  
+    -What are your most and least favorite parts of the job?  
+    -What project will I be assigned to, and how will success be measured?  
+
+    - What are your procedures for testing and releasing code?  
+    - What are the company’s goals this year, and what problems are you running into that a new employee can help with?    
+    - What problems have you run into while scaling the user base?  
+    - Why did you pick Angular.js as your front-end framework?
+
+More sample behavrioal questions:
+    - What do you consider your greatest career accomplishment?
+    - Tell me about a time you dealt with an interpersonal issue.
+    - What was the hardest problem your ran into in the job?
+    - Tell me about a time you had to teach yourself something in order to reach your goal.
+    - Tell me about the most difficult challenge you encountered on that software project.
+
+Other sample questions:
+    How did you hear about us?
+    Why do you want to work at our company?
+    Why do you want to be a programmer?
+    Where do you see yourself five years down the road?
+    How did you teach yourself to program?
+    How do you go about picking up a new technology?
+    What kinds of problems do you like to work on?
+    What was the hardest coding project you ever did?
+    What work have you done that you are most proud of?
+
+Some common questions can be related to coding:
+    -What do you like about Ruby?
+    Common answers: readable, object-oriented
+
+    -What do you like about Rails?
+    Common answer: "convention over configuration"
+
+
+    -Walk me through your development process for a new project.
+    Pro moves: mapping out database relations, listing specifications for the controllers, writing tests, sketching out the views...
+
+    -What's your favorite algorithm?
+    -What's your favorite data structure?
+    -What's your favorite Ruby gem (other than Rails)?
