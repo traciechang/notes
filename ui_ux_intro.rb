@@ -49,49 +49,51 @@
     # - metaphor
     # - negative: absence of affordance
     #     - ex: greyed out button
-    - lying signifier - false perceived affordance (bad)
-        - looks like a button but its not clickable
+#     - lying signifier - false perceived affordance (bad)
+#         - looks like a button but its not clickable
 
-***********************************************
+# ***********************************************
 
-Designing to Look good
+# Designing to Look good
 
-- Layout
-    - add white space
-    - put headings close to texts that follows them
+# - Layout
+#     - add white space
+#     - put headings close to texts that follows them
 
-    - Use Grids
+#     - Use Grids
 
-    - have text hierarchies (h1, h2, etc)
+#     - have text hierarchies (h1, h2, etc)
 
-- Colors
-    - use constrained pallete
-    - only use a couple Colors
+# - Colors
+#     - use constrained pallete
+#     - only use a couple Colors
 
-- Fonts
-    - easy to read
-    - set yourself apart by not using default Font
-    - google fonts are good and easy
+# - Fonts
+#     - easy to read
+#     - set yourself apart by not using default Font
+#     - google fonts are good and easy
 
-- Forms
-    - one column
-    - specify erros inline (near field, instead of all at top/bottom)
+# - Forms
+#     - one column
+#     - specify erros inline (near field, instead of all at top/bottom)
+#     - Login & signup (verification of password on sign up, few fields, designate password field as password)
 
-- when in doubt, copy someone else (design wise)
 
-- Images
-    - don't host images yourself
-    - reduce image size
-    - images are great
+# - when in doubt, copy someone else (design wise)
 
-- make purpose of site immediately clear
-    - use logo and tagline that get across what the site does
-    - dont confuse recruiters
+# - Images
+#     - don't host images yourself
+#     - reduce image size
+#     - images are great
+
+# - make purpose of site immediately clear
+#     - use logo and tagline that get across what the site does
+#     - dont confuse recruiters
      
-- accessibility
-    - add alt text to every image
-    - use semantic tags and labels
-    - dont have flashing stuff
+# - accessibility
+#     - add alt text to every image
+#     - use semantic tags and labels
+#     - dont have flashing stuff
 
-    - significant contrast between text and background
-    - adding an "accessible view" button that replaces less accessible typefaces
+#     - significant contrast between text and background
+#     - adding an "accessible view" button that replaces less accessible typefaces

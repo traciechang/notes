@@ -99,6 +99,8 @@ More sample behavrioal questions:
     - Tell me about a time you had to teach yourself something in order to reach your goal.
     - Tell me about the most difficult challenge you encountered on that software project.
 
+    https://www.themuse.com/advice/30-behavioral-interview-questions-you-should-be-ready-to-answer
+
 Other sample questions:
     How did you hear about us?
     Why do you want to work at our company?
