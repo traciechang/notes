@@ -123,6 +123,18 @@ Some common questions can be related to coding:
     -Walk me through your development process for a new project.
     Pro moves: mapping out database relations, listing specifications for the controllers, writing tests, sketching out the views...
 
-    -What's your favorite algorithm?
-    -What's your favorite data structure?
-    -What's your favorite Ruby gem (other than Rails)?
+    # -What's your favorite algorithm?
+    # -What's your favorite data structure?
+    # -What's your favorite Ruby gem (other than Rails)?
+
+# **********************************************************************
+
+8/8/18 Technical interviewing
+
+* What are employers looking for?
+    - Ability to work through a difficult problem and utilize different tools
+    - Good design decision making -- clean, readable, maintainable code
+    - Familiarity with a variety of “basics” that all software developers should know
+    - Good communication skills & fit with team members
+
+    Note: Passing a technical interview is about knowing the right stuff and communicating that you know it
