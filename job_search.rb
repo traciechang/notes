@@ -138,3 +138,69 @@ Some common questions can be related to coding:
     - Good communication skills & fit with team members
 
     Note: Passing a technical interview is about knowing the right stuff and communicating that you know it
+
+* The application pipeline
+    - Phone Screen (20-45 minutes)
+    - Coding challenge or project (2-8 hours)
+    - Technical phone or video screen (45-60 minutes)
+    - Onsite (3-6 hours)
+
+* General advice for onsites
+    - Ask clarifying questions
+    - Communicate your approach
+    - Communicate throughout
+    - Write examples
+    - Clean coding style and presentation
+    - Be mindful of time and space complexity
+    - Provide alternatives
+        Efficiency
+        Modularity
+    - Be persistent - NEVER GIVE UP!
+
+* Live Coding
+    - The “classic” way to interview a software developer
+    - Sometimes done on a whiteboard, sometimes with screen share software
+    - Ex: You have a linked list and you want to find the kth to last node. Write a function kth_to_last_node that takes an integer k and the head_node of a linked list, and returns the kth to the last node in the list.
+
+    - How to do well:
+        * Understand (30%)
+            - Restate the problem (buys u time)
+            - Ask clarifying questions
+            - Example inputs and outputs
+            - Talk/ask about edge cases
+        * Plan (45%)
+            - Brainstorm different approaches
+            - Test/analyze (does it work w/ example inputs? time/space complexity, pick best one)
+            - Pseudocode
+        * Code (25%)
+        * Test and Analyze (100%)
+            - walk thru your code
+            - check for edge cases
+            - discuss time complexity
+
+* Knowledge and Trivia
+    -JavaScript
+    -Rails
+    -Ruby
+    -SQL
+    -HTML/CSS
+    -React/Redux
+    -Web
+
+    -Examples:
+        What is the event loop in JS? How does it work?
+        What happens when you type in ‘www.google.com’ and hit enter?
+        Talk about the 4 types of positions in CSS
+        What's your favorite thing about your favorite language? What's your least favorite thing about your favorite language?
+        What is a load balancer?
+        What does it mean for a web page to be responsive?
+        What is a hashmap? How is it different from a hash table?
+        What are the differences between XSS and CSRF? What are they?
+        What is HTTPS, and how is it different form HTTP?
+        What is a ring buffer?
+
+* Practical Coding Challenges
+    -Build Something
+    -Make calls to an API
+    -Debug
+    -Refactor
