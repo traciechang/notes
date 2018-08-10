@@ -35,21 +35,21 @@
 
 # **********************************************************************
 
-8/7/2018 Interview skills
+# 8/7/2018 Interview skills
 
-- keep answers concise (30-90 seconds)
-- use positive framework/words
-- tell a story - concrete details w/ start, middle, end
+# - keep answers concise (30-90 seconds)
+# - use positive framework/words
+# - tell a story - concrete details w/ start, middle, end
 
-* Commonly Asked Questions *
--  Tell me about yourself?
-- Why do you want to work for our company?
-- Tell me about a time you had a conflict with a supervisor?
-- What is your greatest strength/weakness?
-- Tell me about one of your projects?
-- What have you been learning lately?
-- What are your 5 year plans?  
-- Do you have any questions for us?
+# * Commonly Asked Questions *
+# -  Tell me about yourself?
+# - Why do you want to work for our company?
+# - Tell me about a time you had a conflict with a supervisor?
+# - What is your greatest strength/weakness?
+# - Tell me about one of your projects?
+# - What have you been learning lately?
+# - What are your 5 year plans?  
+# - Do you have any questions for us?
 
 # **********************************************************************
 
@@ -250,3 +250,8 @@ Some common questions can be related to coding:
 
 * After the Interview
     - Do debrief (what questions did u struggle w/? What topics came up? Write these down for practice/future interviews)
+
+* Negotation
+https://haseebq.com/how-not-to-bomb-your-offer-negotiation/
+
+https://www.investopedia.com/articles/personal-finance/041515/equity-vs-salary-what-you-need-know.asp
