@@ -204,3 +204,49 @@ Some common questions can be related to coding:
     -Make calls to an API
     -Debug
     -Refactor
+
+    Examples:
+    1.Build a React component that prints “Hello, world!” to the screen.
+    2.Build a digital clock using only vanilla JS, HTML, CSS
+    3.Here’s some broken code. Fix it. 
+
+    - Live Coding Tips
+        - Waste as little time as possible on setup- practice writing boilerplate code
+        - Communicate well- remember your pair programming experience!
+        - Remember to test (don’t wait until you’ve coded up the entire problem before testing to see that it works) and analyze along the way
+        
+    - Suceeding at pratical challenges 
+        - Keep coding - don’t let your skills get stale
+        - Spend 2.5 hours working on projects or practical coding challenges per day
+        - Focus on deepening your understanding as you code
+        - JavaScript 30
+        - Hackathons
+
+* Architecture and systems design
+    - Typically big, vague, broad questions
+    - Often times more pseudocode and high level discussion than actual coding
+    - Practice good judgement and thoughtfulness in design
+    - Be aware of what’s out there
+
+    examples:
+        How would you design a URL shortener?
+        Design Twitter
+        How does a website scale?
+
+    Succeeding at Architecture Questions
+        - Start with making sure you understand the end goal
+        - Make it conversational
+        - Diagrams and visuals (use whiteboard or paper)
+
+    Preparing for Architecture Questions
+        - Read 1 High Scalability article per day to get acquainted with the different tools available and their strengths/weaknesses. For example, what is a NoSQL database, why use one? What are its strengths and weaknesses?  (as you read, research the topics you’re not familiar with, make flashcards out of them)
+        - Be ready for the often-asked questions (Pay attention in Ned’s lecture)
+        - Practice doing this with your everyday websites
+        - Youtube series on System Design
+            https://www.youtube.com/watch?v=UzLMhqg3_Wc
+            https://www.youtube.com/watch?v=fMZMm_0ZhK4
+            https://www.youtube.com/watch?v=us0qySiUsGU
+            https://www.youtube.com/watch?v=zKPNUMkwOJE
+
+* After the Interview
+    - Do debrief (what questions did u struggle w/? What topics came up? Write these down for practice/future interviews)

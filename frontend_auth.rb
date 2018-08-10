@@ -12,32 +12,32 @@
 #     - session controller
 #     - application controller (ex. login, logout, current user helper, etc)
 
-*****************************************
+# *****************************************
 
-Frontend Auth: API Authentication
+# Frontend Auth: API Authentication
 
-- starts when user sees form - fill in username, pw, submit button.
-- package in json and sent to backend. POST to /users
-    - will hit rails router
-    - call Create in controller
-    - controller will create new user w/ info passed in and attempt to save to db
+# - starts when user sees form - fill in username, pw, submit button.
+# - package in json and sent to backend. POST to /users
+#     - will hit rails router
+#     - call Create in controller
+#     - controller will create new user w/ info passed in and attempt to save to db
 
-*****************************************
+# *****************************************
 
-Frontend Auth: Frontend Auth Pattern
+# Frontend Auth: Frontend Auth Pattern
 
-- API Utils
-    - user object needs to be sent to "/users" as a POST request
+# - API Utils
+#     - user object needs to be sent to "/users" as a POST request
 
-- storing current_user
-    - how to store current_user in frontend? Store in state.
-    state: {
-        session: {
-            currentUser: pusheen, (starts out as null. changes when user logs in)
-            errors: "suername has already been taken, pw too short, etc"
-        }
-    }
-    - ex: on welcome page, check if (current_user) { display user's name } else { <h2></h2> }
+# - storing current_user
+#     - how to store current_user in frontend? Store in state.
+#     state: {
+#         session: {
+#             currentUser: pusheen, (starts out as null. changes when user logs in)
+#             errors: "suername has already been taken, pw too short, etc"
+#         }
+#     }
+#     - ex: on welcome page, check if (current_user) { display user's name } else { <h2></h2> }
 
 - restricting access
     - ex. you have homepage of all cats. you only let logged in user to create new cat. you can prevent a unlogged user from submitting a form, but it's better to just not let them access the create cat page in the first place. So when they try to go, u can redirect them to homepage or login page.
