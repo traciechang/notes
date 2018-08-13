@@ -53,20 +53,20 @@
 
 # **********************************************************************
 
-* Behavioral Questions *
-- tell a story - concrete details w/ start, middle, end
-- 30 seconds
-- Answers to these questions can come from your work history, academic projects, or even personal projects.
-- Asks about the way you’ve handled projects in the past. 
-- May start with “Tell me about a time when…” or similar. 
-- Request for concrete examples from your past.  
-- Examples:
-    Tell me about a challenge you ran into on that project.
-    What did you like most/least about that project?  
-    Tell me about a time you had a conflict with a supervisor.
-    Tell me about a time you ran into an interpersonal conflict.
-    What did you learn from that experience?  
-- (Spend less time describing problem, and more time on action you took to resolve issues.)
+# * Behavioral Questions *
+# - tell a story - concrete details w/ start, middle, end
+# - 30 seconds
+# - Answers to these questions can come from your work history, academic projects, or even personal projects.
+# - Asks about the way you’ve handled projects in the past. 
+# - May start with “Tell me about a time when…” or similar. 
+# - Request for concrete examples from your past.  
+# - Examples:
+#     Tell me about a challenge you ran into on that project.
+#     What did you like most/least about that project?  
+#     Tell me about a time you had a conflict with a supervisor.
+#     Tell me about a time you ran into an interpersonal conflict.
+#     What did you learn from that experience?  
+# - (Spend less time describing problem, and more time on action you took to resolve issues.)
 
 * Problem/Action/Result (beginning/middle/end)
  - Problem: The situation that required support or intervention.
@@ -80,17 +80,17 @@
  -Action: "So I started researching better ways to store information, and found a number of database options online. I researched three different options, presented the pros and cons of each to my manager, and recommended Salesforce as the best fit for us."
  - Result: "I worked with our office manager to get the system set up, and two months later, we not only had cleaner data that was easier to update, but were able to keep track of almost twice as many metrics as we were before."
 
-* Thoughtful questions to ask interviewer
-    -What is the onboarding process? 
-    -Walk me through a typical workday for you.  
-    -What tasks do you do and when?  
-    -What are your most and least favorite parts of the job?  
-    -What project will I be assigned to, and how will success be measured?  
+# * Thoughtful questions to ask interviewer
+#     -What is the onboarding process? 
+#     -Walk me through a typical workday for you.  
+#     -What tasks do you do and when?  
+#     -What are your most and least favorite parts of the job?  
+#     -What project will I be assigned to, and how will success be measured?  
 
-    - What are your procedures for testing and releasing code?  
-    - What are the company’s goals this year, and what problems are you running into that a new employee can help with?    
-    - What problems have you run into while scaling the user base?  
-    - Why did you pick Angular.js as your front-end framework?
+#     - What are your procedures for testing and releasing code?  
+#     - What are the company’s goals this year, and what problems are you running into that a new employee can help with?    
+#     - What problems have you run into while scaling the user base?  
+#     - Why did you pick Angular.js as your front-end framework?
 
 More sample behavrioal questions:
     - What do you consider your greatest career accomplishment?
@@ -252,6 +252,33 @@ Some common questions can be related to coding:
     - Do debrief (what questions did u struggle w/? What topics came up? Write these down for practice/future interviews)
 
 * Negotation
-https://haseebq.com/how-not-to-bomb-your-offer-negotiation/
+    https://haseebq.com/how-not-to-bomb-your-offer-negotiation/
 
-https://www.investopedia.com/articles/personal-finance/041515/equity-vs-salary-what-you-need-know.asp
+    https://www.investopedia.com/articles/personal-finance/041515/equity-vs-salary-what-you-need-know.asp
+
+    - Negotations Lecture
+        - always get any additional info about the position before negotiating salary
+            - benefits
+            - what's the schedule like
+            - how do they review people, when are raises given
+        - you do not need to tell them how much other companies are offering, not of their business. You can just tell them I have other offers
+        - "I'll forgo other opportunities and sign today if _"
+
+        - Never give the first number. If they ask:
+            - "I know its important to a company to have salary info, but I don't want to focus on salary just yet. My priority is to find a company that offers [mentorship/a great product/an excellent team/ whatver matters to you]"
+        - If they ask again:
+            - "I am confident we'll be able to make an agreement when the time comes"
+        - If they keep pushing:
+            - I don't have enough info about the role to evaluate it yet, but on [Glassdoor/Indeed/elsewhere] I have that salaries are typically around [find a high number].
+        
+        - Don't negotiate over the phone
+            - They are more experienced than you and can push you and it will go too fast.
+
+        - Outside recruiters may ask who you've applied to - don't tell them.
+        - If they ask u what ur previous salary was, u dont owe them that info. You can say "I was in a completely different field before and I expect a market rate salary based on my skills for this position."
+
+        - After getting an offer:
+            - Follow up w/ your other leads
+                - companies you've interviewed w/ and are waiting to hear back from (u could consolidate the thank u-for-the-interview email w/ this one if u havent thanked them yet)
+            - companies that you havent heard back that seem cool
+            - companies where you've scheduled an interview that falls outside your deadline
