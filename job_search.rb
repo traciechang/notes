@@ -68,17 +68,17 @@
 #     What did you learn from that experience?  
 # - (Spend less time describing problem, and more time on action you took to resolve issues.)
 
-* Problem/Action/Result (beginning/middle/end)
- - Problem: The situation that required support or intervention.
- - Action: What you did to address the problem.
- - Result: The improved situation produced through your actions.
+# * Problem/Action/Result (beginning/middle/end)
+#  - Problem: The situation that required support or intervention.
+#  - Action: What you did to address the problem.
+#  - Result: The improved situation produced through your actions.
 
- Ex: Tell me about a time you had to 
- take initiative to get something done.  
+#  Ex: Tell me about a time you had to 
+#  take initiative to get something done.  
  
- - Problem: "When I was at [RampUp], we needed to store a lot of data but we kept all the data on spreadsheets. There were so many, the sheets were almost impossible to keep updated. Finding basic numbers for a client would sometimes take 30 minutes."
- -Action: "So I started researching better ways to store information, and found a number of database options online. I researched three different options, presented the pros and cons of each to my manager, and recommended Salesforce as the best fit for us."
- - Result: "I worked with our office manager to get the system set up, and two months later, we not only had cleaner data that was easier to update, but were able to keep track of almost twice as many metrics as we were before."
+#  - Problem: "When I was at [RampUp], we needed to store a lot of data but we kept all the data on spreadsheets. There were so many, the sheets were almost impossible to keep updated. Finding basic numbers for a client would sometimes take 30 minutes."
+#  -Action: "So I started researching better ways to store information, and found a number of database options online. I researched three different options, presented the pros and cons of each to my manager, and recommended Salesforce as the best fit for us."
+#  - Result: "I worked with our office manager to get the system set up, and two months later, we not only had cleaner data that was easier to update, but were able to keep track of almost twice as many metrics as we were before."
 
 # * Thoughtful questions to ask interviewer
 #     -What is the onboarding process? 
