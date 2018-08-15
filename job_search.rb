@@ -92,36 +92,36 @@
 #     - What problems have you run into while scaling the user base?  
 #     - Why did you pick Angular.js as your front-end framework?
 
-More sample behavrioal questions:
-    - What do you consider your greatest career accomplishment?
-    - Tell me about a time you dealt with an interpersonal issue.
-    - What was the hardest problem your ran into in the job?
-    - Tell me about a time you had to teach yourself something in order to reach your goal.
-    - Tell me about the most difficult challenge you encountered on that software project.
+# More sample behavrioal questions:
+#     - What do you consider your greatest career accomplishment?
+#     - Tell me about a time you dealt with an interpersonal issue.
+#     - What was the hardest problem your ran into in the job?
+#     - Tell me about a time you had to teach yourself something in order to reach your goal.
+#     - Tell me about the most difficult challenge you encountered on that software project.
 
-    https://www.themuse.com/advice/30-behavioral-interview-questions-you-should-be-ready-to-answer
+#     https://www.themuse.com/advice/30-behavioral-interview-questions-you-should-be-ready-to-answer
 
-Other sample questions:
-    How did you hear about us?
-    Why do you want to work at our company?
-    Why do you want to be a programmer?
-    Where do you see yourself five years down the road?
-    How did you teach yourself to program?
-    How do you go about picking up a new technology?
-    What kinds of problems do you like to work on?
-    What was the hardest coding project you ever did?
-    What work have you done that you are most proud of?
+# Other sample questions:
+#     How did you hear about us?
+#     Why do you want to work at our company?
+#     Why do you want to be a programmer?
+#     Where do you see yourself five years down the road?
+#     How did you teach yourself to program?
+#     How do you go about picking up a new technology?
+#     What kinds of problems do you like to work on?
+#     What was the hardest coding project you ever did?
+#     What work have you done that you are most proud of?
 
-Some common questions can be related to coding:
-    -What do you like about Ruby?
-    Common answers: readable, object-oriented
+# Some common questions can be related to coding:
+#     -What do you like about Ruby?
+#     Common answers: readable, object-oriented
 
-    -What do you like about Rails?
-    Common answer: "convention over configuration"
+#     -What do you like about Rails?
+#     Common answer: "convention over configuration"
 
 
-    -Walk me through your development process for a new project.
-    Pro moves: mapping out database relations, listing specifications for the controllers, writing tests, sketching out the views...
+#     -Walk me through your development process for a new project.
+#     Pro moves: mapping out database relations, listing specifications for the controllers, writing tests, sketching out the views...
 
     # -What's your favorite algorithm?
     # -What's your favorite data structure?
@@ -129,63 +129,63 @@ Some common questions can be related to coding:
 
 # **********************************************************************
 
-8/8/18 Technical interviewing
+# 8/8/18 Technical interviewing
 
-* What are employers looking for?
-    - Ability to work through a difficult problem and utilize different tools
-    - Good design decision making -- clean, readable, maintainable code
-    - Familiarity with a variety of “basics” that all software developers should know
-    - Good communication skills & fit with team members
+# * What are employers looking for?
+#     - Ability to work through a difficult problem and utilize different tools
+#     - Good design decision making -- clean, readable, maintainable code
+#     - Familiarity with a variety of “basics” that all software developers should know
+#     - Good communication skills & fit with team members
 
-    Note: Passing a technical interview is about knowing the right stuff and communicating that you know it
+#     Note: Passing a technical interview is about knowing the right stuff and communicating that you know it
 
-* The application pipeline
-    - Phone Screen (20-45 minutes)
-    - Coding challenge or project (2-8 hours)
-    - Technical phone or video screen (45-60 minutes)
-    - Onsite (3-6 hours)
+# * The application pipeline
+#     - Phone Screen (20-45 minutes)
+#     - Coding challenge or project (2-8 hours)
+#     - Technical phone or video screen (45-60 minutes)
+#     - Onsite (3-6 hours)
 
-* General advice for onsites
-    - Ask clarifying questions
-    - Communicate your approach
-    - Communicate throughout
-    - Write examples
-    - Clean coding style and presentation
-    - Be mindful of time and space complexity
-    - Provide alternatives
-        Efficiency
-        Modularity
-    - Be persistent - NEVER GIVE UP!
+# * General advice for onsites
+#     - Ask clarifying questions
+#     - Communicate your approach
+#     - Communicate throughout
+#     - Write examples
+#     - Clean coding style and presentation
+#     - Be mindful of time and space complexity
+#     - Provide alternatives
+#         Efficiency
+#         Modularity
+#     - Be persistent - NEVER GIVE UP!
 
-* Live Coding
-    - The “classic” way to interview a software developer
-    - Sometimes done on a whiteboard, sometimes with screen share software
-    - Ex: You have a linked list and you want to find the kth to last node. Write a function kth_to_last_node that takes an integer k and the head_node of a linked list, and returns the kth to the last node in the list.
+# * Live Coding
+#     - The “classic” way to interview a software developer
+#     - Sometimes done on a whiteboard, sometimes with screen share software
+#     - Ex: You have a linked list and you want to find the kth to last node. Write a function kth_to_last_node that takes an integer k and the head_node of a linked list, and returns the kth to the last node in the list.
 
-    - How to do well:
-        * Understand (30%)
-            - Restate the problem (buys u time)
-            - Ask clarifying questions
-            - Example inputs and outputs
-            - Talk/ask about edge cases
-        * Plan (45%)
-            - Brainstorm different approaches
-            - Test/analyze (does it work w/ example inputs? time/space complexity, pick best one)
-            - Pseudocode
-        * Code (25%)
-        * Test and Analyze (100%)
-            - walk thru your code
-            - check for edge cases
-            - discuss time complexity
+#     - How to do well:
+#         * Understand (30%)
+#             - Restate the problem (buys u time)
+#             - Ask clarifying questions
+#             - Example inputs and outputs
+#             - Talk/ask about edge cases
+#         * Plan (45%)
+#             - Brainstorm different approaches
+#             - Test/analyze (does it work w/ example inputs? time/space complexity, pick best one)
+#             - Pseudocode
+#         * Code (25%)
+#         * Test and Analyze (100%)
+#             - walk thru your code
+#             - check for edge cases
+#             - discuss time complexity
 
-* Knowledge and Trivia
-    -JavaScript
-    -Rails
-    -Ruby
-    -SQL
-    -HTML/CSS
-    -React/Redux
-    -Web
+# * Knowledge and Trivia
+#     -JavaScript
+#     -Rails
+#     -Ruby
+#     -SQL
+#     -HTML/CSS
+#     -React/Redux
+#     -Web
 
     -Examples:
         What is the event loop in JS? How does it work?
