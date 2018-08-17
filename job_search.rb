@@ -251,34 +251,34 @@
 * After the Interview
     - Do debrief (what questions did u struggle w/? What topics came up? Write these down for practice/future interviews)
 
-* Negotation
-    https://haseebq.com/how-not-to-bomb-your-offer-negotiation/
+# * Negotation
+#     https://haseebq.com/how-not-to-bomb-your-offer-negotiation/
 
-    https://www.investopedia.com/articles/personal-finance/041515/equity-vs-salary-what-you-need-know.asp
+#     https://www.investopedia.com/articles/personal-finance/041515/equity-vs-salary-what-you-need-know.asp
 
-    - Negotations Lecture
-        - always get any additional info about the position before negotiating salary
-            - benefits
-            - what's the schedule like
-            - how do they review people, when are raises given
-        - you do not need to tell them how much other companies are offering, not of their business. You can just tell them I have other offers
-        - "I'll forgo other opportunities and sign today if _"
+#     - Negotations Lecture
+#         - always get any additional info about the position before negotiating salary
+#             - benefits
+#             - what's the schedule like
+#             - how do they review people, when are raises given
+#         - you do not need to tell them how much other companies are offering, not of their business. You can just tell them I have other offers
+#         - "I'll forgo other opportunities and sign today if _"
 
-        - Never give the first number. If they ask:
-            - "I know its important to a company to have salary info, but I don't want to focus on salary just yet. My priority is to find a company that offers [mentorship/a great product/an excellent team/ whatver matters to you]"
-        - If they ask again:
-            - "I am confident we'll be able to make an agreement when the time comes"
-        - If they keep pushing:
-            - I don't have enough info about the role to evaluate it yet, but on [Glassdoor/Indeed/elsewhere] I have that salaries are typically around [find a high number].
+#         - Never give the first number. If they ask:
+#             - "I know its important to a company to have salary info, but I don't want to focus on salary just yet. My priority is to find a company that offers [mentorship/a great product/an excellent team/ whatver matters to you]"
+#         - If they ask again:
+#             - "I am confident we'll be able to make an agreement when the time comes"
+#         - If they keep pushing:
+#             - I don't have enough info about the role to evaluate it yet, but on [Glassdoor/Indeed/elsewhere] I have that salaries are typically around [find a high number].
         
-        - Don't negotiate over the phone
-            - They are more experienced than you and can push you and it will go too fast.
+#         - Don't negotiate over the phone
+#             - They are more experienced than you and can push you and it will go too fast.
 
-        - Outside recruiters may ask who you've applied to - don't tell them.
-        - If they ask u what ur previous salary was, u dont owe them that info. You can say "I was in a completely different field before and I expect a market rate salary based on my skills for this position."
+#         - Outside recruiters may ask who you've applied to - don't tell them.
+#         - If they ask u what ur previous salary was, u dont owe them that info. You can say "I was in a completely different field before and I expect a market rate salary based on my skills for this position."
 
-        - After getting an offer:
-            - Follow up w/ your other leads
-                - companies you've interviewed w/ and are waiting to hear back from (u could consolidate the thank u-for-the-interview email w/ this one if u havent thanked them yet)
-            - companies that you havent heard back that seem cool
-            - companies where you've scheduled an interview that falls outside your deadline
+#         - After getting an offer:
+#             - Follow up w/ your other leads
+#                 - companies you've interviewed w/ and are waiting to hear back from (u could consolidate the thank u-for-the-interview email w/ this one if u havent thanked them yet)
+#             - companies that you havent heard back that seem cool
+#             - companies where you've scheduled an interview that falls outside your deadline
