@@ -2,34 +2,34 @@
 
 # https://www.youtube.com/watch?v=UzLMhqg3_Wc
 
-Ask good questions:
-- what features to work on
-- how much to scale
+# Ask good questions:
+# - what features to work on
+# - how much to scale
 
-Don't use buzzwords in the interview (make sure that what you talk about, you actually have in depth knowledge of it)
+# Don't use buzzwords in the interview (make sure that what you talk about, you actually have in depth knowledge of it)
 
-Clear and organized thinking - make sure u understand from high level first
+# Clear and organized thinking - make sure u understand from high level first
 
-Drive discussions - make sure u lead the discussion (80 - 20 rule). You talk 80% of the time and interviewer talks 20%.
+# Drive discussions - make sure u lead the discussion (80 - 20 rule). You talk 80% of the time and interviewer talks 20%.
 
-Practice - given a problem, talk to a friend about how u would approach solving it.
+# Practice - given a problem, talk to a friend about how u would approach solving it.
 
-Parts to System Design Interview:
-- Features
-    Ex: if asked to design a FB chat, features include a one to one messaging system, and letting other party see once message is read
-- Define APIs
-- Availability
-    ex: if host or data center went down
-- Latency Performance
-    Ex: if customer facing, must be fast
-- Scalability
-    Ex: u design a system and it works for 100 users, but will it work for 1000 users?
-- Durability
-    Data can be stored in db securely, and it won't be compromised
-- Class Diagram
-    - how would u design a class
-- Security and Privacy
-- Cost effective
+# Parts to System Design Interview:
+# - Features
+#     Ex: if asked to design a FB chat, features include a one to one messaging system, and letting other party see once message is read
+# - Define APIs
+# - Availability
+#     ex: if host or data center went down
+# - Latency Performance
+#     Ex: if customer facing, must be fast
+# - Scalability
+#     Ex: u design a system and it works for 100 users, but will it work for 1000 users?
+# - Durability
+#     Data can be stored in db securely, and it won't be compromised
+# - Class Diagram
+#     - how would u design a class
+# - Security and Privacy
+# - Cost effective
 
 Topics:
 - Vertical vs horizontal scaling
