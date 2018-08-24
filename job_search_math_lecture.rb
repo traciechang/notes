@@ -1,19 +1,19 @@
-* Mathemtical functions *
+# * Mathemtical functions *
 
-Function (in Math): f(n) is a function if it produces a unique output for every input n in its domain
+# Function (in Math): f(n) is a function if it produces a unique output for every input n in its domain
 
-Constant: has the same output no matter what input u put in. Never changes.
-    f(n) = 5
+# Constant: has the same output no matter what input u put in. Never changes.
+#     f(n) = 5
 
-Linear: as the input changes, the output changes proportionally.
-    f(n) = 2n + 1
-    f(n) = an + b
+# Linear: as the input changes, the output changes proportionally.
+#     f(n) = 2n + 1
+#     f(n) = an + b
 
-Quadratic: b and c can b zero, a cannot be
-    f(n) = an**2 + bn + c
-    f(n) = n**2
+# Quadratic: b and c can b zero, a cannot be
+#     f(n) = an**2 + bn + c
+#     f(n) = n**2
 
-- All 3 of the above are polynomials
+# - All 3 of the above are polynomials
 
 Square Root: inverse of Quadratic
 
