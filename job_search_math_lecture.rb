@@ -15,11 +15,11 @@
 
 # - All 3 of the above are polynomials
 
-Square Root: inverse of Quadratic
+# Square Root: inverse of Quadratic
 
-Exponential: inverse of logarithm. Grows extremely fast, faster than polynomial function. If you see one, it should be a red flag - can you do better?
-    f(n) = c * b**n
-    f(n) = 2**n
+# Exponential: inverse of logarithm. Grows extremely fast, faster than polynomial function. If you see one, it should be a red flag - can you do better?
+#     f(n) = c * b**n
+#     f(n) = 2**n
 
 Logarithm: inverse of exponential. Grows extremely slow
     f(n) clogn
