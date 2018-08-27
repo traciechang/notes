@@ -21,8 +21,8 @@
 #     f(n) = c * b**n
 #     f(n) = 2**n
 
-Logarithm: inverse of exponential. Grows extremely slow
-    f(n) clogn
+# Logarithm: inverse of exponential. Grows extremely slow
+#     f(n) clogn
 
 Factorial:
     f(n) = n!
