@@ -28,8 +28,8 @@
 #     f(n) = n!
 #          = n * (n-1) * (n-2) * .. * 1
 
-- Asymptotes: a line or curve that a function approaches but does not touch or cross
-    - ex: vertical or horizontal
+# - Asymptotes: a line or curve that a function approaches but does not touch or cross
+#     - ex: vertical or horizontal
 
 - Asymptotic Behavior: behavior (outputs) of a function as input goes to +/- infinity
     Order:
