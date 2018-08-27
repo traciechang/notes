@@ -24,9 +24,9 @@
 # Logarithm: inverse of exponential. Grows extremely slow
 #     f(n) clogn
 
-Factorial:
-    f(n) = n!
-         = n * (n-1) * (n-2) * .. * 1
+# Factorial:
+#     f(n) = n!
+#          = n * (n-1) * (n-2) * .. * 1
 
 - Asymptotes: a line or curve that a function approaches but does not touch or cross
     - ex: vertical or horizontal
