@@ -31,7 +31,7 @@
 # - Asymptotes: a line or curve that a function approaches but does not touch or cross
 #     - ex: vertical or horizontal
 
-- Asymptotic Behavior: behavior (outputs) of a function as input goes to +/- infinity
+# - Asymptotic Behavior: behavior (outputs) of a function as input goes to +/- infinity
     Order:
     1. Constant does not increase at All
     2. Logarithm grows second slowest
