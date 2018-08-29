@@ -34,7 +34,7 @@
 # - Asymptotic Behavior: behavior (outputs) of a function as input goes to +/- infinity
     # Order:
     # 1. Constant does not increase at All
-    2. Logarithm grows second slowest
+    # 2. Logarithm grows second slowest
     3. Sqare Root
     4. Linear
     5. Quadratic
