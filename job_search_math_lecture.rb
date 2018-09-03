@@ -36,7 +36,7 @@
     # 1. Constant does not increase at All
     # 2. Logarithm grows second slowest
     # 3. Sqare Root
-    4. Linear
+    # 4. Linear
     5. Quadratic
     6. polynomial
     7. exponential
