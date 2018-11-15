@@ -31,12 +31,12 @@
 # - Security and Privacy
 # - Cost effective
 
-Topics:
-- Vertical vs horizontal scaling
-    - if u need to scale ur system, u can do vertical (add more memory, cpu to existing host) or horizontal (add another host). Horizontal preferred.
-- CAP theorem
-        - Consistency (read has most recent write), Availability (ull get response back), Partial tolerance
-        - u can only have 2 of these 3 things
+# Topics:
+# - Vertical vs horizontal scaling
+#     - if u need to scale ur system, u can do vertical (add more memory, cpu to existing host) or horizontal (add another host). Horizontal preferred.
+# - CAP theorem
+#         - Consistency (read has most recent write), Availability (ull get response back), Partial tolerance
+#         - u can only have 2 of these 3 things
 - ACID vs BASE
         - ACID: used in relational db
         - BASE: used in NoSQL db
