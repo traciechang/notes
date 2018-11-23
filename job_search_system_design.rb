@@ -40,11 +40,11 @@
 # - ACID vs BASE
 #         - ACID: used in relational db
 #         - BASE: used in NoSQL db
-- Partitioning/Sharding 
-    - Consistent Hashing
-- Optimistic vs pessimistic locking
-- Strong vs eventual consistency
-        - Strong: reads will always see latest write. Used in relational db
+# - Partitioning/Sharding 
+#     - Consistent Hashing
+# - Optimistic vs pessimistic locking
+# - Strong vs eventual consistency
+#         - Strong: reads will always see latest write. Used in relational db
 - RelationalDB vs NoSQL
 - Types of NoSQL
      Key value
