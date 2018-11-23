@@ -37,9 +37,9 @@
 # - CAP theorem
 #         - Consistency (read has most recent write), Availability (ull get response back), Partial tolerance
 #         - u can only have 2 of these 3 things
-- ACID vs BASE
-        - ACID: used in relational db
-        - BASE: used in NoSQL db
+# - ACID vs BASE
+#         - ACID: used in relational db
+#         - BASE: used in NoSQL db
 - Partitioning/Sharding 
     - Consistent Hashing
 - Optimistic vs pessimistic locking
