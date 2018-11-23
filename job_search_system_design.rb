@@ -45,12 +45,12 @@
 # - Optimistic vs pessimistic locking
 # - Strong vs eventual consistency
 #         - Strong: reads will always see latest write. Used in relational db
-- RelationalDB vs NoSQL
-- Types of NoSQL
-     Key value
-     Wide column
-     Document-based
-     Graph-based
+# - RelationalDB vs NoSQL
+# - Types of NoSQL
+#      Key value
+#      Wide column
+#      Document-based
+#      Graph-based
 - Caching
     - used to speed up ur request
     - cannot be the source of truth
