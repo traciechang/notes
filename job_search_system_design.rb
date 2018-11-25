@@ -55,8 +55,8 @@
 #     - used to speed up ur request
 #     - cannot be the source of truth
 #     - must be small
-- Data center/racks/hosts
-    - data centers have racks and racks have hosts
+# - Data center/racks/hosts
+#     - data centers have racks and racks have hosts
 - CPU/memory/Hard drives/Network bandwidth
 - Random vs sequential read/writes to disk
     - random are slower than sequential
