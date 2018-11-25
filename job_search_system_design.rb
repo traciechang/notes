@@ -51,10 +51,10 @@
 #      Wide column
 #      Document-based
 #      Graph-based
-- Caching
-    - used to speed up ur request
-    - cannot be the source of truth
-    - must be small
+# - Caching
+#     - used to speed up ur request
+#     - cannot be the source of truth
+#     - must be small
 - Data center/racks/hosts
     - data centers have racks and racks have hosts
 - CPU/memory/Hard drives/Network bandwidth
