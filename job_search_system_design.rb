@@ -57,9 +57,9 @@
 #     - must be small
 # - Data center/racks/hosts
 #     - data centers have racks and racks have hosts
-- CPU/memory/Hard drives/Network bandwidth
-- Random vs sequential read/writes to disk
-    - random are slower than sequential
+# - CPU/memory/Hard drives/Network bandwidth
+# - Random vs sequential read/writes to disk
+#     - random are slower than sequential
 - HTTP vs http2 vs WebSocket
     - http2 can do multiple request or single connection
     - WebSocket bidirectional communication between client and server
