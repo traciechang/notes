@@ -60,9 +60,9 @@
 # - CPU/memory/Hard drives/Network bandwidth
 # - Random vs sequential read/writes to disk
 #     - random are slower than sequential
-- HTTP vs http2 vs WebSocket
-    - http2 can do multiple request or single connection
-    - WebSocket bidirectional communication between client and server
+# - HTTP vs http2 vs WebSocket
+#     - http2 can do multiple request or single connection
+#     - WebSocket bidirectional communication between client and server
 - TCP/IP model
     - good to know what each layer does
 - ipv4 vs ipv6
