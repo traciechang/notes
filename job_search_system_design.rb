@@ -71,8 +71,8 @@
 #     -tcp is reliable connection, udp unreliable (ex: streaming vid)
 # - DNS lookup
 #     - if u type www.google.com to browser, translates this address to an IP address
-- Http & TLS
-    - transport layer security
+# - Http & TLS
+#     - transport layer security
 - Public key infrastructure and certificate authority(CA)
     - CA is trusted and tells u if public key is definitely coming from say facebook, and not a 3rd party that hacked fb
 - Symmetric vs asymmetric encryption
