@@ -69,8 +69,8 @@
 #     - 4 has 32 bit address, 6 has 128 bit address. We are running out of ipv4 addresses
 # - TCP vs UDP
 #     -tcp is reliable connection, udp unreliable (ex: streaming vid)
-- DNS lookup
-    - if u type www.google.com to browser, translates this address to an IP address
+# - DNS lookup
+#     - if u type www.google.com to browser, translates this address to an IP address
 - Http & TLS
     - transport layer security
 - Public key infrastructure and certificate authority(CA)
