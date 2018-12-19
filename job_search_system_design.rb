@@ -73,8 +73,8 @@
 #     - if u type www.google.com to browser, translates this address to an IP address
 # - Http & TLS
 #     - transport layer security
-- Public key infrastructure and certificate authority(CA)
-    - CA is trusted and tells u if public key is definitely coming from say facebook, and not a 3rd party that hacked fb
+# - Public key infrastructure and certificate authority(CA)
+#     - CA is trusted and tells u if public key is definitely coming from say facebook, and not a 3rd party that hacked fb
 - Symmetric vs asymmetric encryption
 - Load Balancer
     -> L4 vs L7
