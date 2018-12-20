@@ -75,7 +75,7 @@
 #     - transport layer security
 # - Public key infrastructure and certificate authority(CA)
 #     - CA is trusted and tells u if public key is definitely coming from say facebook, and not a 3rd party that hacked fb
-- Symmetric vs asymmetric encryption
+# - Symmetric vs asymmetric encryption
 - Load Balancer
     -> L4 vs L7
 - CDNs & Edges
