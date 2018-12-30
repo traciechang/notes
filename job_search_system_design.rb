@@ -78,8 +78,8 @@
 # - Symmetric vs asymmetric encryption
 # - Load Balancer
 #     -> L4 vs L7
-- CDNs & Edges
-    - content delivery network (ex: netflix put in CDN close to u, which helps w/ Performance. vs putting it just where they are located.)
+# - CDNs & Edges
+#     - content delivery network (ex: netflix put in CDN close to u, which helps w/ Performance. vs putting it just where they are located.)
 - Bloom filters and Count-Min sketch
 - Paxos 
     - consensus over distributed hosts
