@@ -83,7 +83,7 @@
 # - Bloom filters and Count-Min sketch
 # - Paxos 
     # - consensus over distributed hosts
-    - Leader election
+    # - Leader election
 - Design patterns and Object-oriented design
 - Virtual machines and containers
 - Pub-sub architecture over queue
