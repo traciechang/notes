@@ -85,7 +85,7 @@
     - consensus over distributed hosts
     - Leader election
 # - Design patterns and Object-oriented design
-- Virtual machines and containers
+# - Virtual machines and containers
 - Pub-sub architecture over queue
 - MapReduce
 - Multithreading, locks, synchronization, CAS(compare and set)
