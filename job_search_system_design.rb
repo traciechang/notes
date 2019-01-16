@@ -87,6 +87,6 @@
 # - Design patterns and Object-oriented design
 # - Virtual machines and containers
 # - Pub-sub architecture over queue
-- MapReduce
+# - MapReduce
 - Multithreading, locks, synchronization, CAS(compare and set)
 
