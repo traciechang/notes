@@ -88,5 +88,5 @@
 # - Virtual machines and containers
 # - Pub-sub architecture over queue
 # - MapReduce
-- Multithreading, locks, synchronization, CAS(compare and set)
+# - Multithreading, locks, synchronization, CAS(compare and set)
 
