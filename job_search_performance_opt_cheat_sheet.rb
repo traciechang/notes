@@ -1,6 +1,6 @@
 # Performance Optimizations Cheat Sheet
 
-Ways to Improve Performance
+# Ways to Improve Performance
 
 -DB layer
 
