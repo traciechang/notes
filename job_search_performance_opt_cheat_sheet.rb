@@ -2,7 +2,7 @@
 
 # Ways to Improve Performance
 
--DB layer
+# -DB layer
 
 Index lookup columns (see lol_dba and rack-mini-profiler)
 Order indices to start from the most selective columns
