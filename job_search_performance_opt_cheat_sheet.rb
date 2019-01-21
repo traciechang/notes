@@ -5,7 +5,7 @@
 # -DB layer
 
 # Index lookup columns (see lol_dba and rack-mini-profiler)
-Order indices to start from the most selective columns
+# Order indices to start from the most selective columns
 Denormalize the schema (only worth it for huge performance gains)
 [Use NoSQL for non-crucial data.]
 
