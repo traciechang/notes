@@ -9,7 +9,7 @@
 # Denormalize the schema (only worth it for huge performance gains)
 # [Use NoSQL for non-crucial data.]
 
-- Application layer
+# - Application layer
 
 Cache DB queries (see Russian Doll Caching)
 Use ActiveRecord counter cache
