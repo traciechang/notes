@@ -12,7 +12,7 @@
 # - Application layer
 
 # Cache DB queries (see Russian Doll Caching)
-Use ActiveRecord counter cache
+# Use ActiveRecord counter cache
 Use a faster server (see Unicorn)
 Trade more space for less time in your code
 Cache rendered views
