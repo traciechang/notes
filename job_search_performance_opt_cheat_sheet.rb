@@ -90,3 +90,29 @@ User Perception
 Use loading animations
 Use progressive JPEGs
 Use isomorphic JavaScript to pre-generate initial DOM on the server-side (e.g., React, Meteor)
+
+
+class Node
+    def initialize(value)
+        @value = value
+        @nxt = nxt
+    end
+
+    attr_reader :value, :nxt
+end
+
+class LinkedList
+    def initialize(head_value)
+        @head = Node.new(head_value)
+    end
+end
+
+list = LinkedList.new('A')
+head = list.head
+
+hash = {}
+hash[head.value] = head
+
+until head.next.nil?
+
+end
