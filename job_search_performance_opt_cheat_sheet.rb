@@ -20,7 +20,7 @@
 # Paginate long results
 # Use background jobs for anything that doesn't have to be done immediately (e.g. for email)
 
-Use Adequate Record (Rails 4.2 only) to add extra caching
+# Use Adequate Record (Rails 4.2 only) to add extra caching
 Favor Model#pluck to avoid the overhead of creating Active Record models when you can avoid it
 In views, order records by primary key instead of created_at (it’s faster and almost equivalent)
 [Use a multithreaded server (see Puma)]
