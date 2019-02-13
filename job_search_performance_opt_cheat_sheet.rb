@@ -23,7 +23,7 @@
 # Use Adequate Record (Rails 4.2 only) to add extra caching
 # Favor Model#pluck to avoid the overhead of creating Active Record models when you can avoid it
 # In views, order records by primary key instead of created_at (it’s faster and almost equivalent)
-[Use a multithreaded server (see Puma)]
+# [Use a multithreaded server (see Puma)]
 [Add RAM to your server]
 [Upgrade Ruby version if you’re using an old one]
 [Flush the buffer right after </head>]
