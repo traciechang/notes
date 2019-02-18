@@ -25,7 +25,7 @@
 # In views, order records by primary key instead of created_at (it’s faster and almost equivalent)
 # [Use a multithreaded server (see Puma)]
 # [Add RAM to your server]
-[Upgrade Ruby version if you’re using an old one]
+# [Upgrade Ruby version if you’re using an old one]
 [Flush the buffer right after </head>]
 [Use several servers and a load-balancer]
 
