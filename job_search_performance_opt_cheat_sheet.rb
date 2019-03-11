@@ -26,7 +26,7 @@
 # [Use a multithreaded server (see Puma)]
 # [Add RAM to your server]
 # [Upgrade Ruby version if you’re using an old one]
-[Flush the buffer right after </head>]
+# [Flush the buffer right after </head>]
 [Use several servers and a load-balancer]
 
 - Network
