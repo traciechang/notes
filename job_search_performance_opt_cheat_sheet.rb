@@ -27,7 +27,7 @@
 # [Add RAM to your server]
 # [Upgrade Ruby version if you’re using an old one]
 # [Flush the buffer right after </head>]
-[Use several servers and a load-balancer]
+# [Use several servers and a load-balancer]
 
 - Network
 
