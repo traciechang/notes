@@ -31,7 +31,7 @@
 
 # - Network
 
-Server-side
+# Server-side
 
 Load third-party assets through a CDN
 [Use a reverse proxy server like Varnish]
