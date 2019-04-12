@@ -33,7 +33,7 @@
 
 # Server-side
 
-Load third-party assets through a CDN
+# Load third-party assets through a CDN
 [Use a reverse proxy server like Varnish]
 Limit number of different hostnames but split components across hostnames
 Prefer GET to POST requests where it makes sense
