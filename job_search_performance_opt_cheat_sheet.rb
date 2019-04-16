@@ -40,7 +40,7 @@ Server-side
 Minimize cookie sizes
 Preload components
 Replace redirects with Alias and mod_rewrite
-Use servers that are close to your users
+# Use servers that are close to your users
 Uptime Robot (Heroku-specific)
 
 Client-side
