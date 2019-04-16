@@ -29,7 +29,7 @@
 # [Flush the buffer right after </head>]
 # [Use several servers and a load-balancer]
 
-# - Network
+- Network
 
 # Server-side
 
