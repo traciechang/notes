@@ -44,7 +44,7 @@
 # end
 
 
-Example: Longest Increasing Subsequence
+# Example: Longest Increasing Subsequence
     Given an array of integers, find the length of the longest increasing subsequence.
     Ex: [1,5,2,6,10.4,20] => 5 because [1,2,6,10,20]
 
