@@ -27,7 +27,7 @@
 
     # Time Complexity: linear
 
-Bottom Up Fibonacci
+# Bottom Up Fibonacci
 
 def fib_cache_builder(n)
     @cache = { 1 => 1, 2 => 1}
