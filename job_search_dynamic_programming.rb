@@ -29,14 +29,14 @@
 
 # Bottom Up Fibonacci
 
-def fib_cache_builder(n)
-    @cache = { 1 => 1, 2 => 1}
-    return cache if n < 3
-    (3..n).each do |i|
-        cache[i] = cache[i-1] + cache[i-2]
-    end
-    cache
-end
+# def fib_cache_builder(n)
+#     @cache = { 1 => 1, 2 => 1}
+#     return cache if n < 3
+#     (3..n).each do |i|
+#         cache[i] = cache[i-1] + cache[i-2]
+#     end
+#     cache
+# end
 
 def fibonacci(n)
     cache = fib_cache_builder(n)
