@@ -45,7 +45,7 @@
 
 
 # Example: Longest Increasing Subsequence
-    Given an array of integers, find the length of the longest increasing subsequence.
+    # Given an array of integers, find the length of the longest increasing subsequence.
     Ex: [1,5,2,6,10.4,20] => 5 because [1,2,6,10,20]
 
     Bottom up approach: perhaps the solution at any given point may be based on the solutions that preceded it. Meaning we can determine solution of [1,5], [1,5,2], etc.
