@@ -48,7 +48,7 @@
     # Given an array of integers, find the length of the longest increasing subsequence.
     # Ex: [1,5,2,6,10.4,20] => 5 because [1,2,6,10,20]
 
-    Bottom up approach: perhaps the solution at any given point may be based on the solutions that preceded it. Meaning we can determine solution of [1,5], [1,5,2], etc.
+    # Bottom up approach: perhaps the solution at any given point may be based on the solutions that preceded it. Meaning we can determine solution of [1,5], [1,5,2], etc.
 
     - At each index, the solution is the longest preceding solution that terminates in a number less than the number we are considering (plus the current number). 
     - If we accumulate the optimal solutions for every index, we can then choose among them.
