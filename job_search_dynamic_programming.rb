@@ -51,7 +51,7 @@
     # Bottom up approach: perhaps the solution at any given point may be based on the solutions that preceded it. Meaning we can determine solution of [1,5], [1,5,2], etc.
 
     # - At each index, the solution is the longest preceding solution that terminates in a number less than the number we are considering (plus the current number). 
-    - If we accumulate the optimal solutions for every index, we can then choose among them.
+    # - If we accumulate the optimal solutions for every index, we can then choose among them.
 
 Remember the key to solving these types of problem is defining the recursive relationship. 
 What is the relationship between a given solution and other solutions that lead up to it?
