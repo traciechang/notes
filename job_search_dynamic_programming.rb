@@ -25,7 +25,7 @@
     #     end
     # end
 
-    # Time Complexity: linear
+    # Time Complexity: Linear
 
 # Bottom Up Fibonacci
 
