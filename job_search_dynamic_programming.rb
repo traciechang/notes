@@ -1,6 +1,6 @@
 # Dynamic Programming 09/17/18
 
-    # - improving performance of solutions using methods that reuse work that you've already done
+    # - Improving performance of solutions using methods that reuse work that you've already done
     # - TOP DOWN
     #     - often referred to 'memoization'
     #     - typical recursive implementation that depend on solutions further down the chain
