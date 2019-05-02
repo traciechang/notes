@@ -1,4 +1,4 @@
-# Dynamic Programming 9/17/18
+# Dynamic Programming 09/17/18
 
     # - improving performance of solutions using methods that reuse work that you've already done
     # - TOP DOWN
