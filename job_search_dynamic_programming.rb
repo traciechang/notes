@@ -54,7 +54,7 @@
     # - If we accumulate the optimal solutions for every index, we can then choose among them.
 
 # Remember the key to solving these types of problem is defining the recursive relationship. 
-What is the relationship between a given solution and other solutions that lead up to it?
+# What is the relationship between a given solution and other solutions that lead up to it?
 
 Burglar Problem - Dynamic Programming
     - given an array of houses for u to rob. The integers represent the value of the houses. You want to rob so  u get the most amt of money, but cannot rob adjacent houses.
