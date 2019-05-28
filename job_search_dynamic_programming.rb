@@ -59,7 +59,7 @@
 # Burglar Problem - Dynamic Programming
     # - given an array of houses for u to rob. The integers represent the value of the houses. You want to rob so  u get the most amt of money, but cannot rob adjacent houses.
 
-    [1,5,16,20,3,7,10,5,10,25,17] = 62
+    # [1,5,16,20,3,7,10,5,10,25,17] = 62
 
     - keep track of sub solutions
     - each decision relies on relationship w/ sub solutions
