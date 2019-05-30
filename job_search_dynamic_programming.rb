@@ -61,7 +61,7 @@
 
     # [1,5,16,20,3,7,10,5,10,25,17] = 62
 
-    - keep track of sub solutions
+    # - keep track of sub solutions
     - each decision relies on relationship w/ sub solutions
 
     - we make an array with the solution at each index
