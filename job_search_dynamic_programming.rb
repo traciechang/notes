@@ -65,7 +65,7 @@
     # - each decision relies on relationship w/ sub solutions
 
     # - we make an array with the solution at each index
-    [1,5,17,25,25,32,35,37,45,62,62]
+    # [1,5,17,25,25,32,35,37,45,62,62]
 
 Max Sum to Leaf Problem
     - find max sum from root node to leaf
