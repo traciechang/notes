@@ -1,6 +1,6 @@
 # Graphs 9/16/18
 
-Introduction
+# Introduction
 
 1. Vertices (dots)
 2. Edges (lines) that connect the vertices.
