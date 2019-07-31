@@ -5,7 +5,7 @@
 # 1. Vertices (dots)
 # 2. Edges (lines) that connect the vertices.
     # - can add directions (if u do, every point must have directions)
-    - can also have weights (can leave unweighted or must add weight to all edges)
+    # - can also have weights (can leave unweighted or must add weight to all edges)
 
 Example: Facebook
         Vertices: FB users
