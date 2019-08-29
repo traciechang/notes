@@ -10,7 +10,7 @@
 # Example: Facebook
         # Vertices: FB users
         # Edges: connect user A to user B if and only if A and B are friends
-            - unweighted and undirected. If A is friends with B, B is friends with A - there is no direction.
+            # - unweighted and undirected. If A is friends with B, B is friends with A - there is no direction.
 
 Sparce Graph
 
